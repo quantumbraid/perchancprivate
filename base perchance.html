@@ -1,0 +1,2896 @@
+[font("", "Emilys Candy"), ""]
+[allostars(120,60)]
+[favicon("https://user-uploads.perchance.org/file/8e73dfbc3d7815664d138ebf8c23486e.jpeg")]
+
+
+<style>
+  /* Enhanced loading spinner with smoother animation and glow effect */
+  .loading-spinner-434142 {
+    background-color: rgba(39, 26, 61, 1);
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 20px dotted rgb(22, 203, 219);
+    border-right: 18px dotted rgb(55, 11, 186);
+    border-bottom: 16px dotted rgb(22, 203, 219);
+    border-left: 18px dotted rgb(55, 11, 186);
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    box-shadow: 0 0 25px rgba(22, 203, 219, 0.6);
+  }
+  
+  /* Improved comments plugin styling */
+  .___perchance-comments-plugin-iframe-12345 {
+    border-style: double;
+    border-color: rgb(114, 8, 207);
+    border-width: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(114, 8, 207, 0.4);
+  }
+  
+  /* Enhanced rainbow text effects with more vibrant colors and smoother transitions */
+  .rainbow-text {
+    background: var(--rainbow-text-gradient, linear-gradient(45deg, #ff0000, #00ff00, #0040ff, #7b00ff, #ffffff, #00ff00, #0040ff, #7b00ff, #4103fc, #ff4845, #fffb0a, #ffffff, #00ff00, #40f9ff, #0000ff, #ffffff, #480bba, #a8ffee, #ff1c2f, #fffc36, #3dff33, #480bba, #ffffff, #a8ffee, #fffc36, #3dff33, #abfff2, #a8ffee, #3dff33));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: var(--rainbow-animation, rainbow-default) 10s infinite linear;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  }
+  
+  .rainbow-text2 {
+    background: var(--rainbow-text2-gradient, linear-gradient(90deg, #ff0000, #00ff00, #0040ff, #7b00ff, #ffffff, #00ff00, #0040ff, #7b00ff, #4103fc, #ff4845, #fffb0a, #ffffff, #00ff00, #40f9ff, #0000ff, #ffffff, #480bba, #a8ffee, #ff1c2f, #fffc36, #3dff33, #480bba, #ffffff, #a8ffee, #fffc36, #3dff33, #abfff2, #a8ffee, #3dff33));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: var(--rainbow-text2-animation, rainbow-default-fast) 1s infinite linear;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  }
+
+  .rainbowstar {
+    background: var(--rainbow-star-gradient, radial-gradient(#f5ff85, #ffc64d, #a81d81, #ffe4ad, #462c7a));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: var(--rainbow-star-animation, rainbow-star-default) 10s infinite linear;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  }
+  
+  .rainbowstarX {
+    background: var(--rainbow-starx-gradient, radial-gradient(#40ffff, #418dd9, #3dcc5a, #1542a3, #90ff63));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: var(--rainbow-starx-animation, rainbow-star-default) 10s infinite linear;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  }
+
+  /* Default rainbow animations with smooth transitions */
+  @keyframes rainbow-default {
+    0% {
+      filter: hue-rotate(0deg) brightness(1.05);
+    }
+    50% {
+      filter: hue-rotate(180deg) brightness(1.15);
+    }
+    100% {
+      filter: hue-rotate(360deg) brightness(1.05);
+    }
+  }
+
+  @keyframes rainbow-default-fast {
+    0% {
+      filter: hue-rotate(0deg) brightness(1.05);
+    }
+    50% {
+      filter: hue-rotate(180deg) brightness(1.15);
+    }
+    100% {
+      filter: hue-rotate(360deg) brightness(1.05);
+    }
+  }
+
+  @keyframes rainbow-star-default {
+    0% {
+      filter: hue-rotate(0deg) brightness(1.05);
+    }
+    50% {
+      filter: hue-rotate(73deg) brightness(1.15);
+    }
+    100% {
+      filter: hue-rotate(0deg) brightness(1.05);
+    }
+  }
+  
+  /* Magic theme animations with pulsing and color shifts - adjusted to maintain purple/pink tones */
+  @keyframes rainbow-magic {
+    0% {
+      filter: hue-rotate(-30deg) brightness(1.05) saturate(1.2);
+    }
+    25% {
+      filter: hue-rotate(0deg) brightness(1.3) saturate(1.5);
+    }
+    50% {
+      filter: hue-rotate(30deg) brightness(1.1) saturate(1.4);
+    }
+    75% {
+      filter: hue-rotate(0deg) brightness(1.3) saturate(1.5);
+    }
+    100% {
+      filter: hue-rotate(-30deg) brightness(1.05) saturate(1.2);
+    }
+  }
+
+  @keyframes rainbow-magic-fast {
+    0% {
+      filter: hue-rotate(-30deg) brightness(1.1) saturate(1.4);
+    }
+    50% {
+      filter: hue-rotate(30deg) brightness(1.4) saturate(1.7);
+    }
+    100% {
+      filter: hue-rotate(-30deg) brightness(1.1) saturate(1.4);
+    }
+  }
+
+  @keyframes rainbow-star-magic {
+    0% {
+      filter: hue-rotate(-20deg) brightness(1.1) saturate(1.3);
+    }
+    33% {
+      filter: hue-rotate(0deg) brightness(1.4) saturate(1.5);
+    }
+    66% {
+      filter: hue-rotate(20deg) brightness(1.2) saturate(1.4);
+    }
+    100% {
+      filter: hue-rotate(-20deg) brightness(1.1) saturate(1.3);
+    }
+  }
+
+  /* Technical theme animations with brightness oscillation - adjusted to maintain blue tones */
+  @keyframes rainbow-technical {
+    0% {
+      filter: hue-rotate(-10deg) brightness(1) contrast(1.1);
+    }
+    20% {
+      filter: hue-rotate(0deg) brightness(1.2) contrast(1.2);
+    }
+    40% {
+      filter: hue-rotate(10deg) brightness(1.1) contrast(1.15);
+    }
+    60% {
+      filter: hue-rotate(0deg) brightness(1.3) contrast(1.1);
+    }
+    80% {
+      filter: hue-rotate(-10deg) brightness(1.2) contrast(1.05);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(1) contrast(1.1);
+    }
+  }
+
+  @keyframes rainbow-technical-fast {
+    0% {
+      filter: hue-rotate(-10deg) brightness(0.9) contrast(1.2);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.3) contrast(1.3);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(0.9) contrast(1.2);
+    }
+  }
+
+  @keyframes rainbow-star-technical {
+    0% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(0.9);
+    }
+    25% {
+      filter: hue-rotate(0deg) brightness(1.3) saturate(1.1);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.1) saturate(1);
+    }
+    75% {
+      filter: hue-rotate(0deg) brightness(1.3) saturate(1.1);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(0.9);
+    }
+  }
+
+  /* Undersea theme animations with wave-like effect - adjusted to maintain teal/aqua tones */
+  @keyframes rainbow-undersea {
+    0% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(1.1);
+    }
+    25% {
+      filter: hue-rotate(0deg) brightness(1.1) saturate(1.2) blur(0.2px);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.2) saturate(1.3) blur(0.3px);
+    }
+    75% {
+      filter: hue-rotate(0deg) brightness(1.1) saturate(1.2) blur(0.2px);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(1.1);
+    }
+  }
+
+  @keyframes rainbow-undersea-fast {
+    0% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(1.1);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.3) saturate(1.4) blur(0.3px);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(1.1);
+    }
+  }
+
+  @keyframes rainbow-star-undersea {
+    0% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(1.1);
+      transform: scale(1);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.2) saturate(1.3);
+      transform: scale(1.05);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(1.1);
+      transform: scale(1);
+    }
+  }
+
+  /* Deep Forest theme animations with saturation transitions - adjusted to maintain green tones */
+  @keyframes rainbow-forest {
+    0% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(1.1);
+    }
+    33% {
+      filter: hue-rotate(0deg) brightness(1.1) saturate(1.3);
+    }
+    66% {
+      filter: hue-rotate(10deg) brightness(1.05) saturate(1.2);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(1.1);
+    }
+  }
+
+  @keyframes rainbow-forest-fast {
+    0% {
+      filter: hue-rotate(-10deg) brightness(0.95) saturate(1.2);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.15) saturate(1.5);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(0.95) saturate(1.2);
+    }
+  }
+
+  @keyframes rainbow-star-forest {
+    0% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(1.1) blur(0px);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.2) saturate(1.4) blur(0.5px);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(1.1) blur(0px);
+    }
+  }
+
+  /* Urban theme animations with grayscale transitions - adjusted to maintain gray tones */
+  @keyframes rainbow-urban {
+    0% {
+      filter: saturate(0.8) contrast(1.1) brightness(0.9);
+    }
+    25% {
+      filter: saturate(0.9) contrast(1.2) brightness(1);
+    }
+    50% {
+      filter: saturate(1) contrast(1.3) brightness(1.1);
+    }
+    75% {
+      filter: saturate(0.9) contrast(1.2) brightness(1);
+    }
+    100% {
+      filter: saturate(0.8) contrast(1.1) brightness(0.9);
+    }
+  }
+
+  @keyframes rainbow-urban-fast {
+    0% {
+      filter: saturate(0.7) contrast(1.1) brightness(0.85);
+    }
+    50% {
+      filter: saturate(1.1) contrast(1.4) brightness(1.15);
+    }
+    100% {
+      filter: saturate(0.7) contrast(1.1) brightness(0.85);
+    }
+  }
+
+  @keyframes rainbow-star-urban {
+    0% {
+      filter: saturate(0.8) contrast(1.2) brightness(0.9);
+      transform: scale(1);
+    }
+    50% {
+      filter: saturate(1.1) contrast(1.4) brightness(1.2);
+      transform: scale(1.03);
+    }
+    100% {
+      filter: saturate(0.8) contrast(1.2) brightness(0.9);
+      transform: scale(1);
+    }
+  }
+
+  /* Desert theme animations with shimmer effect - adjusted to maintain tan/orange tones */
+  @keyframes rainbow-desert {
+    0% {
+      filter: hue-rotate(-10deg) saturate(0.9) brightness(1);
+    }
+    25% {
+      filter: hue-rotate(0deg) saturate(1) brightness(1.15);
+    }
+    50% {
+      filter: hue-rotate(10deg) saturate(1.1) brightness(1.2);
+    }
+    75% {
+      filter: hue-rotate(0deg) saturate(1) brightness(1.15);
+    }
+    100% {
+      filter: hue-rotate(-10deg) saturate(0.9) brightness(1);
+    }
+  }
+
+  @keyframes rainbow-desert-fast {
+    0% {
+      filter: hue-rotate(-10deg) saturate(0.8) brightness(0.95);
+    }
+    50% {
+      filter: hue-rotate(10deg) saturate(1.2) brightness(1.25);
+    }
+    100% {
+      filter: hue-rotate(-10deg) saturate(0.8) brightness(0.95);
+    }
+  }
+
+  @keyframes rainbow-star-desert {
+    0% {
+      filter: hue-rotate(-10deg) saturate(0.9) brightness(1) blur(0px);
+    }
+    50% {
+      filter: hue-rotate(10deg) saturate(1.2) brightness(1.3) blur(0.3px);
+    }
+    100% {
+      filter: hue-rotate(-10deg) saturate(0.9) brightness(1) blur(0px);
+    }
+  }
+
+  /* Space theme animations with twinkle effect - adjusted to maintain deep blue/purple tones */
+  @keyframes rainbow-space {
+    0% {
+      filter: hue-rotate(-10deg) brightness(0.8) saturate(1.2);
+    }
+    20% {
+      filter: hue-rotate(0deg) brightness(1.2) saturate(1.4);
+    }
+    40% {
+      filter: hue-rotate(10deg) brightness(0.9) saturate(1.3);
+    }
+    60% {
+      filter: hue-rotate(0deg) brightness(1.3) saturate(1.5);
+    }
+    80% {
+      filter: hue-rotate(-10deg) brightness(0.9) saturate(1.3);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(0.8) saturate(1.2);
+    }
+  }
+
+  @keyframes rainbow-space-fast {
+    0% {
+      filter: hue-rotate(-10deg) brightness(0.7) saturate(1.1);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.4) saturate(1.6);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(0.7) saturate(1.1);
+    }
+  }
+
+  @keyframes rainbow-star-space {
+    0% {
+      filter: hue-rotate(-10deg) brightness(0.8) saturate(1.2);
+      transform: scale(0.98);
+    }
+    25% {
+      filter: hue-rotate(0deg) brightness(1.4) saturate(1.4);
+      transform: scale(1.02);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(0.9) saturate(1.3);
+      transform: scale(1);
+    }
+    75% {
+      filter: hue-rotate(0deg) brightness(1.3) saturate(1.4);
+      transform: scale(1.02);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(0.8) saturate(1.2);
+      transform: scale(0.98);
+    }
+  }
+
+  /* Dreamy theme animations with soft pulsing - adjusted to maintain pink/purple tones */
+  @keyframes rainbow-dreamy {
+    0% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(0.9) blur(0px);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.2) saturate(1.1) blur(0.3px);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(0.9) blur(0px);
+    }
+  }
+
+  @keyframes rainbow-dreamy-fast {
+    0% {
+      filter: hue-rotate(-10deg) brightness(0.95) saturate(0.8);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.3) saturate(1.2);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(0.95) saturate(0.8);
+    }
+  }
+
+  @keyframes rainbow-star-dreamy {
+    0% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(0.9);
+      transform: scale(1);
+    }
+    50% {
+      filter: hue-rotate(10deg) brightness(1.2) saturate(1.1);
+      transform: scale(1.04);
+    }
+    100% {
+      filter: hue-rotate(-10deg) brightness(1) saturate(0.9);
+      transform: scale(1);
+    }
+  }
+  
+  /* Improved gradient text styling with enhanced colors and animations */
+  .gradientstart {
+    background-image: var(--gradient-start, linear-gradient(to right, white, teal, violet, green, blue, red, blue, green, violet, teal, white));
+    color: transparent; 
+    text-align: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: var(--gradient-start-animation, rainbow-default) 10s infinite linear;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .gradientdiamond {
+    background-image: var(--gradient-diamond, linear-gradient(to right, #ff0000, #00ff00, #00ff00, #00ff00, #ffffff, #00ff00, #00ff00, #00ff00, #ff0000));
+    color: transparent; 
+    text-align: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: var(--gradient-diamond-animation, rainbow-default) 10s infinite linear;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+
+  .gradienttextE {
+    background-image: var(--gradient-text-e, linear-gradient(to right, white, teal, green, gold));
+    color: transparent; 
+    text-align: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: var(--gradient-text-e-animation, rainbow-default) 10s infinite linear;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+
+  .gradienttextG {
+    background-image: var(--gradient-text-g, linear-gradient(to right, violet, blue, white, green));
+    color: transparent; 
+    text-align: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: var(--gradient-text-g-animation, rainbow-default) 10s infinite linear;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .gradienttext1 {
+    background-image: var(--gradient-text1, linear-gradient(to right, white, teal, violet, green, blue, red, blue, green, violet, teal, white));
+    color: transparent; 
+    text-align: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: var(--gradient-text1-animation, rainbow-default) 10s infinite linear;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+   }
+  
+  .gradienttext2 {
+    background-image: var(--gradient-text2, linear-gradient(to right, white, teal, violet, green, blue, red, blue, green, violet, teal, white));
+    color: transparent; 
+    text-align: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: var(--gradient-text2-animation, rainbow-default) 10s infinite linear;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .gradienttext3 {
+    background-image: var(--gradient-text3, linear-gradient(to right, white, teal, violet, green, blue, red, blue, green, violet, teal, white));
+    color: transparent; 
+    text-align: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: var(--gradient-text3-animation, rainbow-default) 10s infinite linear;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .gradienttext4 {
+    background-image: var(--gradient-text4, linear-gradient(to right, white, teal, violet, green, blue, red, blue, green, violet, teal, white));
+    color: transparent; 
+    text-align: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: var(--gradient-text4-animation, rainbow-default) 10s infinite linear;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .forumbutton {
+    background-image: var(--forum-button, linear-gradient(to right, #480bba, #a8ffee, #ff1c2f, #fffc36, #3dff33, #480bba, #ffffff, #a8ffee, #fffc36, #3dff33, #abfff2, #a8ffee, #3dff33));
+    color: transparent; 
+    text-align: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .challengebutton {
+    background-image: var(--challenge-button, linear-gradient(to right, #480bba, #a8ffee, #ff1c2f, #fffc36, #3dff33, #480bba, #ffffff, #a8ffee, #fffc36, #3dff33, #abfff2, #a8ffee, #3dff33));
+    color: transparent; 
+    text-align: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  /* Button glow animation using CSS variables for colors */
+  @keyframes buttonGlow {
+    0% { box-shadow: 0 0 5px var(--glow-color, rgba(255, 255, 255, 0.3)); }
+    50% { box-shadow: 0 0 20px var(--glow-color, rgba(255, 255, 255, 0.8)), 0 0 30px var(--glow-color-secondary, rgba(255, 255, 255, 0.6)); }
+    100% { box-shadow: 0 0 5px var(--glow-color, rgba(255, 255, 255, 0.3)); }
+  }
+  
+  /* Button glow class */
+  .button-glow {
+    animation: buttonGlow 0.8s ease-in-out;
+  }
+  
+  /* Add global button styling with hover effects */
+  button {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  /* Add subtle glow to inputs and textareas */
+  input, textarea {
+    transition: all 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  input:focus, textarea:focus {
+    box-shadow: 0 0 10px rgba(114, 8, 207, 0.5);
+    outline: none;
+  }
+  
+  /* Add animation for page elements */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Add spin animation for loading spinner */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Enhanced styling for story buttons */
+  #storybuttons button {
+    margin: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  #storybuttons button:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Styling for gradient theme selector */
+  #gradientThemeSelector {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  #gradientThemeSelector button {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  #gradientThemeSelector button:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .theme-preview {
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 4px;
+    vertical-align: middle;
+  }
+</style>
+
+
+
+<script>
+
+
+  window.challenge = "https://lemmy.world/post/38448237"
+  
+  // Define gradient themes
+  const gradientThemes = {
+    default: {
+      rainbowText: "linear-gradient(45deg, #ff0000, #00ff00, #0040ff, #7b00ff, #ffffff, #00ff00, #0040ff, #7b00ff, #4103fc, #ff4845, #fffb0a, #ffffff, #00ff00, #40f9ff, #0000ff, #ffffff, #480bba, #a8ffee, #ff1c2f, #fffc36, #3dff33, #480bba, #ffffff, #a8ffee, #fffc36, #3dff33, #abfff2, #a8ffee, #3dff33)",
+      rainbowText2: "linear-gradient(90deg, #ff0000, #00ff00, #0040ff, #7b00ff, #ffffff, #00ff00, #0040ff, #7b00ff, #4103fc, #ff4845, #fffb0a, #ffffff, #00ff00, #40f9ff, #0000ff, #ffffff, #480bba, #a8ffee, #ff1c2f, #fffc36, #3dff33, #480bba, #ffffff, #a8ffee, #fffc36, #3dff33, #abfff2, #a8ffee, #3dff33)",
+      rainbowStar: "radial-gradient(#f5ff85, #ffc64d, #a81d81, #ffe4ad, #462c7a)",
+      rainbowStarX: "radial-gradient(#40ffff, #418dd9, #3dcc5a, #1542a3, #90ff63)",
+      gradientStart: "linear-gradient(to right, white, teal, violet, green, blue, red, blue, green, violet, teal, white)",
+      gradientDiamond: "linear-gradient(to right, #ff0000, #00ff00, #00ff00, #00ff00, #ffffff, #00ff00, #00ff00, #00ff00, #ff0000)",
+      gradientTextE: "linear-gradient(to right, white, teal, green, gold)",
+      gradientTextG: "linear-gradient(to right, violet, blue, white, green)",
+      gradientText1: "linear-gradient(to right, white, teal, violet, green, blue, red, blue, green, violet, teal, white)",
+      gradientText2: "linear-gradient(to right, white, teal, violet, green, blue, red, blue, green, violet, teal, white)",
+      gradientText3: "linear-gradient(to right, white, teal, violet, green, blue, red, blue, green, violet, teal, white)",
+      gradientText4: "linear-gradient(to right, white, teal, violet, green, blue, red, blue, green, violet, teal, white)",
+      forumButton: "linear-gradient(to right, #480bba, #a8ffee, #ff1c2f, #fffc36, #3dff33, #480bba, #ffffff, #a8ffee, #fffc36, #3dff33, #abfff2, #a8ffee, #3dff33)",
+      challengeButton: "linear-gradient(to right, #480bba, #a8ffee, #ff1c2f, #fffc36, #3dff33, #480bba, #ffffff, #a8ffee, #fffc36, #3dff33, #abfff2, #a8ffee, #3dff33)",
+      // Animation names for each element
+      rainbowAnimation: "rainbow-default",
+      rainbowText2Animation: "rainbow-default-fast",
+      rainbowStarAnimation: "rainbow-star-default",
+      rainbowStarXAnimation: "rainbow-star-default",
+      gradientStartAnimation: "rainbow-default",
+      gradientDiamondAnimation: "rainbow-default",
+      gradientTextEAnimation: "rainbow-default",
+      gradientTextGAnimation: "rainbow-default",
+      gradientText1Animation: "rainbow-default",
+      gradientText2Animation: "rainbow-default",
+      gradientText3Animation: "rainbow-default",
+      gradientText4Animation: "rainbow-default"
+    },
+    Magic: {
+      rainbowText: "linear-gradient(45deg, #9900ff, #ff00cc, #7700ff, #cc00ff, #d29dff, #ff00cc, #9900ff, #d29dff, #9d00e6, #ff00cc, #cc00ff, #e6b3ff, #7700ff, #ff00ea, #cc00ff, #d29dff, #7700ff, #b366ff, #ff00cc, #cc00ff, #9900ff, #7700ff, #e6b3ff, #b366ff, #cc00ff, #9900ff, #b366ff, #d29dff, #9900ff)",
+      rainbowText2: "linear-gradient(90deg, #9900ff, #ff00cc, #7700ff, #cc00ff, #d29dff, #ff00cc, #9900ff, #d29dff, #9d00e6, #ff00cc, #cc00ff, #e6b3ff, #7700ff, #ff00ea, #cc00ff, #d29dff, #7700ff, #b366ff, #ff00cc, #cc00ff, #9900ff, #7700ff, #e6b3ff, #b366ff, #cc00ff, #9900ff, #b366ff, #d29dff, #9900ff)",
+      rainbowStar: "radial-gradient(#e6b3ff, #cc00ff, #7700ff, #ff80ff, #330066)",
+      rainbowStarX: "radial-gradient(#b366ff, #9900ff, #6600cc, #8000ff, #cc00ff)",
+      gradientStart: "linear-gradient(to right, #d29dff, #7700ff, #cc00ff, #9900ff, #ff00cc, #b366ff, #ff00cc, #9900ff, #cc00ff, #7700ff, #d29dff)",
+      gradientDiamond: "linear-gradient(to right, #cc00ff, #9900ff, #9900ff, #9900ff, #d29dff, #9900ff, #9900ff, #9900ff, #cc00ff)",
+      gradientTextE: "linear-gradient(to right, #d29dff, #7700ff, #9900ff, #ff00cc)",
+      gradientTextG: "linear-gradient(to right, #cc00ff, #7700ff, #d29dff, #9900ff)",
+      gradientText1: "linear-gradient(to right, #d29dff, #7700ff, #cc00ff, #9900ff, #ff00cc, #b366ff, #ff00cc, #9900ff, #cc00ff, #7700ff, #d29dff)",
+      gradientText2: "linear-gradient(to right, #d29dff, #7700ff, #cc00ff, #9900ff, #ff00cc, #b366ff, #ff00cc, #9900ff, #cc00ff, #7700ff, #d29dff)",
+      gradientText3: "linear-gradient(to right, #d29dff, #7700ff, #cc00ff, #9900ff, #ff00cc, #b366ff, #ff00cc, #9900ff, #cc00ff, #7700ff, #d29dff)",
+      gradientText4: "linear-gradient(to right, #d29dff, #7700ff, #cc00ff, #9900ff, #ff00cc, #b366ff, #ff00cc, #9900ff, #cc00ff, #7700ff, #d29dff)",
+      forumButton: "linear-gradient(to right, #7700ff, #b366ff, #cc00ff, #cc00ff, #9900ff, #7700ff, #d29dff, #b366ff, #cc00ff, #9900ff, #b366ff, #d29dff, #9900ff)",
+      challengeButton: "linear-gradient(to right, #7700ff, #b366ff, #cc00ff, #cc00ff, #9900ff, #7700ff, #d29dff, #b366ff, #cc00ff, #9900ff, #b366ff, #d29dff, #9900ff)",
+      // Animation names for Magic theme
+      rainbowAnimation: "rainbow-magic",
+      rainbowText2Animation: "rainbow-magic-fast",
+      rainbowStarAnimation: "rainbow-star-magic",
+      rainbowStarXAnimation: "rainbow-star-magic",
+      gradientStartAnimation: "rainbow-magic",
+      gradientDiamondAnimation: "rainbow-magic",
+      gradientTextEAnimation: "rainbow-magic",
+      gradientTextGAnimation: "rainbow-magic",
+      gradientText1Animation: "rainbow-magic",
+      gradientText2Animation: "rainbow-magic",
+      gradientText3Animation: "rainbow-magic",
+      gradientText4Animation: "rainbow-magic"
+    },
+    Technical: {
+      rainbowText: "linear-gradient(45deg, #0066ff, #00ccff, #0088ff, #00aaff, #80d4ff, #00ccff, #0066ff, #80d4ff, #0055cc, #00ccff, #00aaff, #99e6ff, #0088ff, #00d8ff, #00aaff, #80d4ff, #0088ff, #4d94ff, #00ccff, #00aaff, #0066ff, #0088ff, #99e6ff, #4d94ff, #00aaff, #0066ff, #4d94ff, #80d4ff, #0066ff)",
+      rainbowText2: "linear-gradient(90deg, #0066ff, #00ccff, #0088ff, #00aaff, #80d4ff, #00ccff, #0066ff, #80d4ff, #0055cc, #00ccff, #00aaff, #99e6ff, #0088ff, #00d8ff, #00aaff, #80d4ff, #0088ff, #4d94ff, #00ccff, #00aaff, #0066ff, #0088ff, #99e6ff, #4d94ff, #00aaff, #0066ff, #4d94ff, #80d4ff, #0066ff)",
+      rainbowStar: "radial-gradient(#99e6ff, #00aaff, #0088ff, #80d4ff, #003366)",
+      rainbowStarX: "radial-gradient(#4d94ff, #0066ff, #004c99, #0055cc, #00aaff)",
+      gradientStart: "linear-gradient(to right, #80d4ff, #0088ff, #00aaff, #0066ff, #00ccff, #4d94ff, #00ccff, #0066ff, #00aaff, #0088ff, #80d4ff)",
+      gradientDiamond: "linear-gradient(to right, #00aaff, #0066ff, #0066ff, #0066ff, #80d4ff, #0066ff, #0066ff, #0066ff, #00aaff)",
+      gradientTextE: "linear-gradient(to right, #80d4ff, #0088ff, #0066ff, #00ccff)",
+      gradientTextG: "linear-gradient(to right, #00aaff, #0088ff, #80d4ff, #0066ff)",
+      gradientText1: "linear-gradient(to right, #80d4ff, #0088ff, #00aaff, #0066ff, #00ccff, #4d94ff, #00ccff, #0066ff, #00aaff, #0088ff, #80d4ff)",
+      gradientText2: "linear-gradient(to right, #80d4ff, #0088ff, #00aaff, #0066ff, #00ccff, #4d94ff, #00ccff, #0066ff, #00aaff, #0088ff, #80d4ff)",
+      gradientText3: "linear-gradient(to right, #80d4ff, #0088ff, #00aaff, #0066ff, #00ccff, #4d94ff, #00ccff, #0066ff, #00aaff, #0088ff, #80d4ff)",
+      gradientText4: "linear-gradient(to right, #80d4ff, #0088ff, #00aaff, #0066ff, #00ccff, #4d94ff, #00ccff, #0066ff, #00aaff, #0088ff, #80d4ff)",
+      forumButton: "linear-gradient(to right, #0088ff, #4d94ff, #00aaff, #00aaff, #0066ff, #0088ff, #80d4ff, #4d94ff, #00aaff, #0066ff, #4d94ff, #80d4ff, #0066ff)",
+      challengeButton: "linear-gradient(to right, #0088ff, #4d94ff, #00aaff, #00aaff, #0066ff, #0088ff, #80d4ff, #4d94ff, #00aaff, #0066ff, #4d94ff, #80d4ff, #0066ff)",
+      // Animation names for Technical theme
+      rainbowAnimation: "rainbow-technical",
+      rainbowText2Animation: "rainbow-technical-fast",
+      rainbowStarAnimation: "rainbow-star-technical",
+      rainbowStarXAnimation: "rainbow-star-technical",
+      gradientStartAnimation: "rainbow-technical",
+      gradientDiamondAnimation: "rainbow-technical",
+      gradientTextEAnimation: "rainbow-technical",
+      gradientTextGAnimation: "rainbow-technical",
+      gradientText1Animation: "rainbow-technical",
+      gradientText2Animation: "rainbow-technical",
+      gradientText3Animation: "rainbow-technical",
+      gradientText4Animation: "rainbow-technical"
+    },
+    Undersea: {
+      rainbowText: "linear-gradient(45deg, #006666, #00cccc, #008888, #00aaaa, #80d4d4, #00cccc, #006666, #80d4d4, #005555, #00cccc, #00aaaa, #99e6e6, #008888, #00d8d8, #00aaaa, #80d4d4, #008888, #4d9494, #00cccc, #00aaaa, #006666, #008888, #99e6e6, #4d9494, #00aaaa, #006666, #4d9494, #80d4d4, #006666)",
+      rainbowText2: "linear-gradient(90deg, #006666, #00cccc, #008888, #00aaaa, #80d4d4, #00cccc, #006666, #80d4d4, #005555, #00cccc, #00aaaa, #99e6e6, #008888, #00d8d8, #00aaaa, #80d4d4, #008888, #4d9494, #00cccc, #00aaaa, #006666, #008888, #99e6e6, #4d9494, #00aaaa, #006666, #4d9494, #80d4d4, #006666)",
+      rainbowStar: "radial-gradient(#99e6e6, #00aaaa, #008888, #80d4d4, #003333)",
+      rainbowStarX: "radial-gradient(#4d9494, #006666, #004c4c, #005555, #00aaaa)",
+      gradientStart: "linear-gradient(to right, #80d4d4, #008888, #00aaaa, #006666, #00cccc, #4d9494, #00cccc, #006666, #00aaaa, #008888, #80d4d4)",
+      gradientDiamond: "linear-gradient(to right, #00aaaa, #006666, #006666, #006666, #80d4d4, #006666, #006666, #006666, #00aaaa)",
+      gradientTextE: "linear-gradient(to right, #80d4d4, #008888, #006666, #00cccc)",
+      gradientTextG: "linear-gradient(to right, #00aaaa, #008888, #80d4d4, #006666)",
+      gradientText1: "linear-gradient(to right, #80d4d4, #008888, #00aaaa, #006666, #00cccc, #4d9494, #00cccc, #006666, #00aaaa, #008888, #80d4d4)",
+      gradientText2: "linear-gradient(to right, #80d4d4, #008888, #00aaaa, #006666, #00cccc, #4d9494, #00cccc, #006666, #00aaaa, #008888, #80d4d4)",
+      gradientText3: "linear-gradient(to right, #80d4d4, #008888, #00aaaa, #006666, #00cccc, #4d9494, #00cccc, #006666, #00aaaa, #008888, #80d4d4)",
+      gradientText4: "linear-gradient(to right, #80d4d4, #008888, #00aaaa, #006666, #00cccc, #4d9494, #00cccc, #006666, #00aaaa, #008888, #80d4d4)",
+      forumButton: "linear-gradient(to right, #008888, #4d9494, #00aaaa, #00aaaa, #006666, #008888, #80d4d4, #4d9494, #00aaaa, #006666, #4d9494, #80d4d4, #006666)",
+      challengeButton: "linear-gradient(to right, #008888, #4d9494, #00aaaa, #00aaaa, #006666, #008888, #80d4d4, #4d9494, #00aaaa, #006666, #4d9494, #80d4d4, #006666)",
+      // Animation names for Undersea theme
+      rainbowAnimation: "rainbow-undersea",
+      rainbowText2Animation: "rainbow-undersea-fast",
+      rainbowStarAnimation: "rainbow-star-undersea",
+      rainbowStarXAnimation: "rainbow-star-undersea",
+      gradientStartAnimation: "rainbow-undersea",
+      gradientDiamondAnimation: "rainbow-undersea",
+      gradientTextEAnimation: "rainbow-undersea",
+      gradientTextGAnimation: "rainbow-undersea",
+      gradientText1Animation: "rainbow-undersea",
+      gradientText2Animation: "rainbow-undersea",
+      gradientText3Animation: "rainbow-undersea",
+      gradientText4Animation: "rainbow-undersea"
+    },
+    DeepForest: {
+      rainbowText: "linear-gradient(45deg, #006600, #00cc00, #008800, #00aa00, #80d480, #00cc00, #006600, #80d480, #005500, #00cc00, #00aa00, #99e699, #008800, #00d800, #00aa00, #80d480, #008800, #4d944d, #00cc00, #00aa00, #006600, #008800, #99e699, #4d944d, #00aa00, #006600, #4d944d, #80d480, #006600)",
+      rainbowText2: "linear-gradient(90deg, #006600, #00cc00, #008800, #00aa00, #80d480, #00cc00, #006600, #80d480, #005500, #00cc00, #00aa00, #99e699, #008800, #00d800, #00aa00, #80d480, #008800, #4d944d, #00cc00, #00aa00, #006600, #008800, #99e699, #4d944d, #00aa00, #006600, #4d944d, #80d480, #006600)",
+      rainbowStar: "radial-gradient(#99e699, #00aa00, #008800, #80d480, #003300)",
+      rainbowStarX: "radial-gradient(#4d944d, #006600, #004c00, #005500, #00aa00)",
+      gradientStart: "linear-gradient(to right, #80d480, #008800, #00aa00, #006600, #00cc00, #4d944d, #00cc00, #006600, #00aa00, #008800, #80d480)",
+      gradientDiamond: "linear-gradient(to right, #00aa00, #006600, #006600, #006600, #80d480, #006600, #006600, #006600, #00aa00)",
+      gradientTextE: "linear-gradient(to right, #80d480, #008800, #006600, #00cc00)",
+      gradientTextG: "linear-gradient(to right, #00aa00, #008800, #80d480, #006600)",
+      gradientText1: "linear-gradient(to right, #80d480, #008800, #00aa00, #006600, #00cc00, #4d944d, #00cc00, #006600, #00aa00, #008800, #80d480)",
+      gradientText2: "linear-gradient(to right, #80d480, #008800, #00aa00, #006600, #00cc00, #4d944d, #00cc00, #006600, #00aa00, #008800, #80d480)",
+      gradientText3: "linear-gradient(to right, #80d480, #008800, #00aa00, #006600, #00cc00, #4d944d, #00cc00, #006600, #00aa00, #008800, #80d480)",
+      gradientText4: "linear-gradient(to right, #80d480, #008800, #00aa00, #006600, #00cc00, #4d944d, #00cc00, #006600, #00aa00, #008800, #80d480)",
+      forumButton: "linear-gradient(to right, #008800, #4d944d, #00aa00, #00aa00, #006600, #008800, #80d480, #4d944d, #00aa00, #006600, #4d944d, #80d480, #006600)",
+      challengeButton: "linear-gradient(to right, #008800, #4d944d, #00aa00, #00aa00, #006600, #008800, #80d480, #4d944d, #00aa00, #006600, #4d944d, #80d480, #006600)",
+      // Animation names for DeepForest theme
+      rainbowAnimation: "rainbow-forest",
+      rainbowText2Animation: "rainbow-forest-fast",
+      rainbowStarAnimation: "rainbow-star-forest",
+      rainbowStarXAnimation: "rainbow-star-forest",
+      gradientStartAnimation: "rainbow-forest",
+      gradientDiamondAnimation: "rainbow-forest",
+      gradientTextEAnimation: "rainbow-forest",
+      gradientTextGAnimation: "rainbow-forest",
+      gradientText1Animation: "rainbow-forest",
+      gradientText2Animation: "rainbow-forest",
+      gradientText3Animation: "rainbow-forest",
+      gradientText4Animation: "rainbow-forest"
+    },
+    Urban: {
+      rainbowText: "linear-gradient(45deg, #666666, #cccccc, #888888, #aaaaaa, #d4d4d4, #cccccc, #666666, #d4d4d4, #555555, #cccccc, #aaaaaa, #e6e6e6, #888888, #d8d8d8, #aaaaaa, #d4d4d4, #888888, #949494, #cccccc, #aaaaaa, #666666, #888888, #e6e6e6, #949494, #aaaaaa, #666666, #949494, #d4d4d4, #666666)",
+      rainbowText2: "linear-gradient(90deg, #666666, #cccccc, #888888, #aaaaaa, #d4d4d4, #cccccc, #666666, #d4d4d4, #555555, #cccccc, #aaaaaa, #e6e6e6, #888888, #d8d8d8, #aaaaaa, #d4d4d4, #888888, #949494, #cccccc, #aaaaaa, #666666, #888888, #e6e6e6, #949494, #aaaaaa, #666666, #949494, #d4d4d4, #666666)",
+      rainbowStar: "radial-gradient(#e6e6e6, #aaaaaa, #888888, #d4d4d4, #333333)",
+      rainbowStarX: "radial-gradient(#949494, #666666, #4c4c4c, #555555, #aaaaaa)",
+      gradientStart: "linear-gradient(to right, #d4d4d4, #888888, #aaaaaa, #666666, #cccccc, #949494, #cccccc, #666666, #aaaaaa, #888888, #d4d4d4)",
+      gradientDiamond: "linear-gradient(to right, #aaaaaa, #666666, #666666, #666666, #d4d4d4, #666666, #666666, #666666, #aaaaaa)",
+      gradientTextE: "linear-gradient(to right, #d4d4d4, #888888, #666666, #cccccc)",
+      gradientTextG: "linear-gradient(to right, #aaaaaa, #888888, #d4d4d4, #666666)",
+      gradientText1: "linear-gradient(to right, #d4d4d4, #888888, #aaaaaa, #666666, #cccccc, #949494, #cccccc, #666666, #aaaaaa, #888888, #d4d4d4)",
+      gradientText2: "linear-gradient(to right, #d4d4d4, #888888, #aaaaaa, #666666, #cccccc, #949494, #cccccc, #666666, #aaaaaa, #888888, #d4d4d4)",
+      gradientText3: "linear-gradient(to right, #d4d4d4, #888888, #aaaaaa, #666666, #cccccc, #949494, #cccccc, #666666, #aaaaaa, #888888, #d4d4d4)",
+      gradientText4: "linear-gradient(to right, #d4d4d4, #888888, #aaaaaa, #666666, #cccccc, #949494, #cccccc, #666666, #aaaaaa, #888888, #d4d4d4)",
+      forumButton: "linear-gradient(to right, #888888, #949494, #aaaaaa, #aaaaaa, #666666, #888888, #d4d4d4, #949494, #aaaaaa, #666666, #949494, #d4d4d4, #666666)",
+      challengeButton: "linear-gradient(to right, #888888, #949494, #aaaaaa, #aaaaaa, #666666, #888888, #d4d4d4, #949494, #aaaaaa, #666666, #949494, #d4d4d4, #666666)",
+      // Animation names for Urban theme
+      rainbowAnimation: "rainbow-urban",
+      rainbowText2Animation: "rainbow-urban-fast",
+      rainbowStarAnimation: "rainbow-star-urban",
+      rainbowStarXAnimation: "rainbow-star-urban",
+      gradientStartAnimation: "rainbow-urban",
+      gradientDiamondAnimation: "rainbow-urban",
+      gradientTextEAnimation: "rainbow-urban",
+      gradientTextGAnimation: "rainbow-urban",
+      gradientText1Animation: "rainbow-urban",
+      gradientText2Animation: "rainbow-urban",
+      gradientText3Animation: "rainbow-urban",
+      gradientText4Animation: "rainbow-urban"
+    },
+    Desert: {
+      rainbowText: "linear-gradient(45deg, #996633, #ffcc99, #bb8844, #ddaa66, #ffe0b3, #ffcc99, #996633, #ffe0b3, #805522, #ffcc99, #ddaa66, #fff0d9, #bb8844, #ffdb99, #ddaa66, #ffe0b3, #bb8844, #ccaa77, #ffcc99, #ddaa66, #996633, #bb8844, #fff0d9, #ccaa77, #ddaa66, #996633, #ccaa77, #ffe0b3, #996633)",
+      rainbowText2: "linear-gradient(90deg, #996633, #ffcc99, #bb8844, #ddaa66, #ffe0b3, #ffcc99, #996633, #ffe0b3, #805522, #ffcc99, #ddaa66, #fff0d9, #bb8844, #ffdb99, #ddaa66, #ffe0b3, #bb8844, #ccaa77, #ffcc99, #ddaa66, #996633, #bb8844, #fff0d9, #ccaa77, #ddaa66, #996633, #ccaa77, #ffe0b3, #996633)",
+      rainbowStar: "radial-gradient(#fff0d9, #ddaa66, #bb8844, #ffe0b3, #4d3319)",
+      rainbowStarX: "radial-gradient(#ccaa77, #996633, #724c25, #805522, #ddaa66)",
+      gradientStart: "linear-gradient(to right, #ffe0b3, #bb8844, #ddaa66, #996633, #ffcc99, #ccaa77, #ffcc99, #996633, #ddaa66, #bb8844, #ffe0b3)",
+      gradientDiamond: "linear-gradient(to right, #ddaa66, #996633, #996633, #996633, #ffe0b3, #996633, #996633, #996633, #ddaa66)",
+      gradientTextE: "linear-gradient(to right, #ffe0b3, #bb8844, #996633, #ffcc99)",
+      gradientTextG: "linear-gradient(to right, #ddaa66, #bb8844, #ffe0b3, #996633)",
+      gradientText1: "linear-gradient(to right, #ffe0b3, #bb8844, #ddaa66, #996633, #ffcc99, #ccaa77, #ffcc99, #996633, #ddaa66, #bb8844, #ffe0b3)",
+      gradientText2: "linear-gradient(to right, #ffe0b3, #bb8844, #ddaa66, #996633, #ffcc99, #ccaa77, #ffcc99, #996633, #ddaa66, #bb8844, #ffe0b3)",
+      gradientText3: "linear-gradient(to right, #ffe0b3, #bb8844, #ddaa66, #996633, #ffcc99, #ccaa77, #ffcc99, #996633, #ddaa66, #bb8844, #ffe0b3)",
+      gradientText4: "linear-gradient(to right, #ffe0b3, #bb8844, #ddaa66, #996633, #ffcc99, #ccaa77, #ffcc99, #996633, #ddaa66, #bb8844, #ffe0b3)",
+      forumButton: "linear-gradient(to right, #bb8844, #ccaa77, #ddaa66, #ddaa66, #996633, #bb8844, #ffe0b3, #ccaa77, #ddaa66, #996633, #ccaa77, #ffe0b3, #996633)",
+      challengeButton: "linear-gradient(to right, #bb8844, #ccaa77, #ddaa66, #ddaa66, #996633, #bb8844, #ffe0b3, #ccaa77, #ddaa66, #996633, #ccaa77, #ffe0b3, #996633)",
+      // Animation names for Desert theme
+      rainbowAnimation: "rainbow-desert",
+      rainbowText2Animation: "rainbow-desert-fast",
+      rainbowStarAnimation: "rainbow-star-desert",
+      rainbowStarXAnimation: "rainbow-star-desert",
+      gradientStartAnimation: "rainbow-desert",
+      gradientDiamondAnimation: "rainbow-desert",
+      gradientTextEAnimation: "rainbow-desert",
+      gradientTextGAnimation: "rainbow-desert",
+      gradientText1Animation: "rainbow-desert",
+      gradientText2Animation: "rainbow-desert",
+      gradientText3Animation: "rainbow-desert",
+      gradientText4Animation: "rainbow-desert"
+    },
+    Space: {
+      rainbowText: "linear-gradient(45deg, #000033, #3333cc, #000066, #0000aa, #6666ff, #3333cc, #000033, #6666ff, #000055, #3333cc, #0000aa, #9999ff, #000066, #0000ff, #0000aa, #6666ff, #000066, #000099, #3333cc, #0000aa, #000033, #000066, #9999ff, #000099, #0000aa, #000033, #000099, #6666ff, #000033)",
+      rainbowText2: "linear-gradient(90deg, #000033, #3333cc, #000066, #0000aa, #6666ff, #3333cc, #000033, #6666ff, #000055, #3333cc, #0000aa, #9999ff, #000066, #0000ff, #0000aa, #6666ff, #000066, #000099, #3333cc, #0000aa, #000033, #000066, #9999ff, #000099, #0000aa, #000033, #000099, #6666ff, #000033)",
+      rainbowStar: "radial-gradient(#9999ff, #0000aa, #000066, #6666ff, #000033)",
+      rainbowStarX: "radial-gradient(#000099, #000033, #00001a, #000055, #0000aa)",
+      gradientStart: "linear-gradient(to right, #6666ff, #000066, #0000aa, #000033, #3333cc, #000099, #3333cc, #000033, #0000aa, #000066, #6666ff)",
+      gradientDiamond: "linear-gradient(to right, #0000aa, #000033, #000033, #000033, #6666ff, #000033, #000033, #000033, #0000aa)",
+      gradientTextE: "linear-gradient(to right, #6666ff, #000066, #000033, #3333cc)",
+      gradientTextG: "linear-gradient(to right, #0000aa, #000066, #6666ff, #000033)",
+      gradientText1: "linear-gradient(to right, #6666ff, #000066, #0000aa, #000033, #3333cc, #000099, #3333cc, #000033, #0000aa, #000066, #6666ff)",
+      gradientText2: "linear-gradient(to right, #6666ff, #000066, #0000aa, #000033, #3333cc, #000099, #3333cc, #000033, #0000aa, #000066, #6666ff)",
+      gradientText3: "linear-gradient(to right, #6666ff, #000066, #0000aa, #000033, #3333cc, #000099, #3333cc, #000033, #0000aa, #000066, #6666ff)",
+      gradientText4: "linear-gradient(to right, #6666ff, #000066, #0000aa, #000033, #3333cc, #000099, #3333cc, #000033, #0000aa, #000066, #6666ff)",
+      forumButton: "linear-gradient(to right, #000066, #000099, #0000aa, #0000aa, #000033, #000066, #6666ff, #000099, #0000aa, #000033, #000099, #6666ff, #000033)",
+      challengeButton: "linear-gradient(to right, #000066, #000099, #0000aa, #0000aa, #000033, #000066, #6666ff, #000099, #0000aa, #000033, #000099, #6666ff, #000033)",
+      // Animation names for Space theme
+      rainbowAnimation: "rainbow-space",
+      rainbowText2Animation: "rainbow-space-fast",
+      rainbowStarAnimation: "rainbow-star-space",
+      rainbowStarXAnimation: "rainbow-star-space",
+      gradientStartAnimation: "rainbow-space",
+      gradientDiamondAnimation: "rainbow-space",
+      gradientTextEAnimation: "rainbow-space",
+      gradientTextGAnimation: "rainbow-space",
+      gradientText1Animation: "rainbow-space",
+      gradientText2Animation: "rainbow-space",
+      gradientText3Animation: "rainbow-space",
+      gradientText4Animation: "rainbow-space"
+    },
+    Dreamy: {
+      rainbowText: "linear-gradient(45deg, #ff99cc, #cc99ff, #ffb3d9, #d9b3ff, #ffcce6, #e6ccff, #ff99cc, #cc99ff, #ff80bf, #cc80ff, #ffb3d9, #d9b3ff, #ff99cc, #cc99ff, #ffb3d9, #d9b3ff, #ff99cc, #cc99ff, #ffb3d9, #d9b3ff, #ff99cc, #cc99ff, #ffcce6, #e6ccff, #ffb3d9, #d9b3ff, #ff99cc, #cc99ff, #ffb3d9)",
+      rainbowText2: "linear-gradient(90deg, #ff99cc, #cc99ff, #ffb3d9, #d9b3ff, #ffcce6, #e6ccff, #ff99cc, #cc99ff, #ff80bf, #cc80ff, #ffb3d9, #d9b3ff, #ff99cc, #cc99ff, #ffb3d9, #d9b3ff, #ff99cc, #cc99ff, #ffb3d9, #d9b3ff, #ff99cc, #cc99ff, #ffcce6, #e6ccff, #ffb3d9, #d9b3ff, #ff99cc, #cc99ff, #ffb3d9)",
+      rainbowStar: "radial-gradient(#ffcce6, #ffb3d9, #ff99cc, #ffcce6, #cc0066)",
+      rainbowStarX: "radial-gradient(#e6ccff, #d9b3ff, #cc99ff, #e6ccff, #6600cc)",
+      gradientStart: "linear-gradient(to right, #ffcce6, #ff99cc, #ffb3d9, #cc99ff, #e6ccff, #d9b3ff, #e6ccff, #cc99ff, #ffb3d9, #ff99cc, #ffcce6)",
+      gradientDiamond: "linear-gradient(to right, #ffb3d9, #cc99ff, #cc99ff, #cc99ff, #ffcce6, #cc99ff, #cc99ff, #cc99ff, #ffb3d9)",
+      gradientTextE: "linear-gradient(to right, #ffcce6, #ff99cc, #cc99ff, #e6ccff)",
+      gradientTextG: "linear-gradient(to right, #ffb3d9, #ff99cc, #ffcce6, #cc99ff)",
+      gradientText1: "linear-gradient(to right, #ffcce6, #ff99cc, #ffb3d9, #cc99ff, #e6ccff, #d9b3ff, #e6ccff, #cc99ff, #ffb3d9, #ff99cc, #ffcce6)",
+      gradientText2: "linear-gradient(to right, #ffcce6, #ff99cc, #ffb3d9, #cc99ff, #e6ccff, #d9b3ff, #e6ccff, #cc99ff, #ffb3d9, #ff99cc, #ffcce6)",
+      gradientText3: "linear-gradient(to right, #ffcce6, #ff99cc, #ffb3d9, #cc99ff, #e6ccff, #d9b3ff, #e6ccff, #cc99ff, #ffb3d9, #ff99cc, #ffcce6)",
+      gradientText4: "linear-gradient(to right, #ffcce6, #ff99cc, #ffb3d9, #cc99ff, #e6ccff, #d9b3ff, #e6ccff, #cc99ff, #ffb3d9, #ff99cc, #ffcce6)",
+      forumButton: "linear-gradient(to right, #ff99cc, #cc99ff, #ffb3d9, #d9b3ff, #ff99cc, #cc99ff, #ffcce6, #cc99ff, #ffb3d9, #ff99cc, #cc99ff, #ffcce6, #d9b3ff)",
+      challengeButton: "linear-gradient(to right, #ff99cc, #cc99ff, #ffb3d9, #d9b3ff, #ff99cc, #cc99ff, #ffcce6, #cc99ff, #ffb3d9, #ff99cc, #cc99ff, #ffcce6, #d9b3ff)",
+      // Animation names for Dreamy theme
+      rainbowAnimation: "rainbow-dreamy",
+      rainbowText2Animation: "rainbow-dreamy-fast",
+      rainbowStarAnimation: "rainbow-star-dreamy",
+      rainbowStarXAnimation: "rainbow-star-dreamy",
+      gradientStartAnimation: "rainbow-dreamy",
+      gradientDiamondAnimation: "rainbow-dreamy",
+      gradientTextEAnimation: "rainbow-dreamy",
+      gradientTextGAnimation: "rainbow-dreamy",
+      gradientText1Animation: "rainbow-dreamy",
+      gradientText2Animation: "rainbow-dreamy",
+      gradientText3Animation: "rainbow-dreamy",
+      gradientText4Animation: "rainbow-dreamy"
+    }
+  };
+  
+  // Function to apply a gradient theme
+  function applyGradientTheme(themeName) {
+    const theme = gradientThemes[themeName] || gradientThemes.default;
+    
+    // Update CSS variables for all gradient styles
+    document.documentElement.style.setProperty('--rainbow-text-gradient', theme.rainbowText);
+    document.documentElement.style.setProperty('--rainbow-text2-gradient', theme.rainbowText2);
+    document.documentElement.style.setProperty('--rainbow-star-gradient', theme.rainbowStar);
+    document.documentElement.style.setProperty('--rainbow-starx-gradient', theme.rainbowStarX);
+    document.documentElement.style.setProperty('--gradient-start', theme.gradientStart);
+    document.documentElement.style.setProperty('--gradient-diamond', theme.gradientDiamond);
+    document.documentElement.style.setProperty('--gradient-text-e', theme.gradientTextE);
+    document.documentElement.style.setProperty('--gradient-text-g', theme.gradientTextG);
+    document.documentElement.style.setProperty('--gradient-text1', theme.gradientText1);
+    document.documentElement.style.setProperty('--gradient-text2', theme.gradientText2);
+    document.documentElement.style.setProperty('--gradient-text3', theme.gradientText3);
+    document.documentElement.style.setProperty('--gradient-text4', theme.gradientText4);
+    document.documentElement.style.setProperty('--forum-button', theme.forumButton);
+    document.documentElement.style.setProperty('--challenge-button', theme.challengeButton);
+    
+    // Update animation CSS variables
+    document.documentElement.style.setProperty('--rainbow-animation', theme.rainbowAnimation);
+    document.documentElement.style.setProperty('--rainbow-text2-animation', theme.rainbowText2Animation);
+    document.documentElement.style.setProperty('--rainbow-star-animation', theme.rainbowStarAnimation);
+    document.documentElement.style.setProperty('--rainbow-starx-animation', theme.rainbowStarXAnimation);
+    document.documentElement.style.setProperty('--gradient-start-animation', theme.gradientStartAnimation);
+    document.documentElement.style.setProperty('--gradient-diamond-animation', theme.gradientDiamondAnimation);
+    document.documentElement.style.setProperty('--gradient-text-e-animation', theme.gradientTextEAnimation);
+    document.documentElement.style.setProperty('--gradient-text-g-animation', theme.gradientTextGAnimation);
+    document.documentElement.style.setProperty('--gradient-text1-animation', theme.gradientText1Animation);
+    document.documentElement.style.setProperty('--gradient-text2-animation', theme.gradientText2Animation);
+    document.documentElement.style.setProperty('--gradient-text3-animation', theme.gradientText3Animation);
+    document.documentElement.style.setProperty('--gradient-text4-animation', theme.gradientText4Animation);
+    
+    // Save the selected theme to localStorage
+    localStorage.setItem("gradientTheme", themeName);
+    
+    // Highlight the active theme button
+    const themeButtons = document.querySelectorAll('.theme-button');
+    themeButtons.forEach(btn => {
+      if (btn.getAttribute('data-theme') === themeName) {
+        btn.style.borderColor = 'rgba(255, 255, 255, 0.8)';
+        btn.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+      } else {
+        btn.style.borderColor = 'rgba(255, 255, 255, 0.3)';
+        btn.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+      }
+    });
+  }
+  
+  // Initialize theme on page load
+  document.addEventListener('DOMContentLoaded', function() {
+    const savedTheme = localStorage.getItem("gradientTheme") || "default";
+    applyGradientTheme(savedTheme);
+  });
+      
+window.seall = function(hemaera,hemlo){
+            localStorage.setItem(hemlo,hemaera)  
+}
+window.lseall = function(hemlo){
+let hema = localStorage.getItem(hemlo)
+if(hema == null){hema = ""}
+  return hema
+}
+
+
+
+
+      function toggledoublestyle(){
+      let ds = localStorage.getItem("doublestyle")
+      if(ds !== null){if(ds == "o"){localStorage.setItem("doublestyle","l");document.getElementById("secondstylebuttons").style.display = "none";document.getElementById("doublestyleli").style.borderColor = "rgb(255,255,255)"}else{
+      localStorage.setItem("doublestyle","o");document.getElementById("secondstylebuttons").style.display = "block";document.getElementById("doublestyleli").style.borderColor = "rgb(0,255,0)"
+      }}else{localStorage.setItem("doublestyle","o");document.getElementById("secondstylebuttons").style.display = "block";document.getElementById("doublestyleli").style.borderColor = "rgb(0,255,0)"}
+    }
+      
+      let dss = localStorage.getItem("doublestyle")
+  if(dss !== null){if(dss == "o"){document.getElementById("doublestyleli").style.borderColor = "rgb(0,255,0)"
+                                 document.getElementById("secondstylebuttons").style.display = "inline-block"
+                                 }}
+
+  
+  
+  
+function genstorySexNSFW(){
+  document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please type a beautiful, extremely sexual story of '"+storyprompt+"'",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+}
+  function genstorymlp(){
+  document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please type a beautiful My Little Pony Friendship is Magic episode about '"+storyprompt+"'",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+}
+  function genstoryanime(){
+  document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please type a beautiful, brilliant and clever story about '"+storyprompt+"'",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+}
+  function genstoryboss(){
+  document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please type a beautiful, "+[bosswords]+" story about '"+storyprompt+"'",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+}
+  function genstorymagic(){
+  document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please type a beautiful, extremely magical story bringing to mind the concepts of: "+[magicword]+", "+[magicword]+", "+[magicword]+", and primarily about '"+storyprompt+"'",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+}
+  function genstoryaction(){
+  document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please type a beautiful, extremely action-packed story bringing to mind the concepts of: "+[actionword]+", "+[actionword]+", "+[actionword]+", and primarily about '"+storyprompt+"'",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+}
+  function genstorycharacter(){
+  document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please type a beautiful, present tense, vivid detailing of a character who is "+[typeofperson]+", "+[typeofperson]+", "+[typeofperson]+", and summarized by '"+storyprompt+"'",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+}
+  function genstorysteam(){
+  document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please type a beautiful, extremely steampunk story bringing to mind the concepts of: "+[steamWords]+", "+[steamWords]+", "+[steamWords]+", and primarily about '"+storyprompt+"'",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+}
+  function genstoryfey(){
+  document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please type a beautiful, extremely fae story bringing to mind the concepts of: "+[feyWords]+", "+[feyWords]+", "+[feyWords]+", and primarily about '"+storyprompt+"'",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+}
+  function genstorylyrics(){
+  document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please make high quality full lyrics of a song from this: '"+storyprompt+"'",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+  }
+  function genimgscene(){
+   document.getElementById("storyplace").innerHTML = ""
+  let prompt = {instruction: "please list 50 different objects that would be found in a picture of a "+storyprompt+".  Do not put labels, names, or text on objects.  describe everything using three paragraphs, not ordered lists.",}
+  document.getElementById("storyplace").innerHTML = aitext(prompt)
+
+        }
+  
+  function extremetize(hem){
+    let zog = ""
+    let after = ""
+    if(hem.indexOf("in the styles of ")!=-1){
+    zog = hem.substring(0,hem.indexOf("in the styles of "))
+    after = hem.substring(hem.indexOf("in the styles of "),hem.length)
+    }else{
+      zog = hem
+    }
+  let maera = hem.split(" ")
+  let which = fate(maera.length)
+  let maera2 = ""
+  for(let zoobchandralonadocerous = 0;zoobchandralonadocerous < maera.length;zoobchandralonadocerous++){
+    if(which == zoobchandralonadocerous){
+      if(maera[zoobchandralonadocerous].substring(0,2)=="((" || maera[zoobchandralonadocerous].substring(maera[zoobchandralonadocerous].length-2,maera[zoobchandralonadocerous].length)=="))"){
+      which = which++
+      }else{
+    maera2 = maera2 + " very very very very " + maera[zoobchandralonadocerous]+""
+      }
+    }else{
+    maera2 = maera2 + " " + maera[zoobchandralonadocerous]
+    }
+  
+     }
+    
+    return maera2 + after
+  }
+  
+  
+  
+  
+  
+</script>
+
+
+
+   <div style="display:none;" id="story">
+        [varia("storyprompt")]
+     <div style="overflow:auto">
+<div id="storybuttons" style="display:inline-flex">
+<button id="s2" style="color:rgb(247, 247, 25);border-color:rgb(250, 250, 127);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genstorySexNSFW()">SexNSFW</button>
+<button id="s4" style="color:rgb(145, 7, 224);border-color:rgb(197, 97, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genstorymlp()">My Little Pony Chapter</button>
+<button id="s5" style="color:rgb(19, 215, 237);border-color:rgb(130, 242, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genstoryanime()">Story</button>
+<button id="s6" style="color:rgb(212, 17, 17);border-color:rgb(242, 99, 99);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genstoryboss()">CoolerStory</button>
+<button id="s7" style="color:rgb(111, 0, 255);border-color:rgb(179, 120, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genstorymagic()">MagicStory</button>
+<button id="s8" style="color:rgb(255, 85, 0);border-color:rgb(255, 150, 97);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genstoryaction()">ActionStory</button>
+<button id="s9" style="color:rgb(0, 16, 237);border-color:rgb(107, 117, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genstorycharacter()">Character</button>
+<button id="s10" style="color:rgb(255, 234, 0);border-color:rgb(255, 240, 71);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genstorysteam()">SteamStory</button>
+<button id="s12" style="color:rgb(0, 255, 42);border-color:rgb(120, 255, 142);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genstoryfey()">FeyStory</button>
+  <button id="s13" style="color:rgb(0, 255, 42);border-color:rgb(120, 255, 142);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genstorylyrics()">Lyrics</button>
+  <button id="s14" style="color:rgb(0, 255, 42);border-color:rgb(120, 255, 142);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="genimgscene()">imgscene</button>
+
+       </div></div>
+     <div id="storyplace"></div>
+     
+     
+     
+  <button style="position:fixed;top:0;right:0;padding:18px;border-radius:36px;" onclick="unstory()">return</button>
+  
+  </div>
+
+
+
+
+
+
+<script>
+
+  
+  
+    function componentToHex(c) {
+  var hex = c.toString(16);
+  return hex.length == 1 ? "0" + hex : hex;
+  }
+
+  function rgbToHex(r, g, b) {
+  return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+  }
+  
+  
+  function RGBtoHex(hem){
+     let ccc = hem
+  ccc = ccc.replaceAll("rgb(","")
+  ccc = ccc.replaceAll(")","")
+  ccc = ccc.replaceAll(" ","")
+  let cccolors = ccc.split(",")
+  let ccccolor = rgbToHex(parseInt(cccolors[0]), parseInt(cccolors[1]), parseInt(cccolors[2]))
+  return ccccolor  
+  }
+  
+  function togglerainbow(){
+    if(document.getElementById("alltitle").className == ""){
+      localStorage.setItem("rainbowmode","o")
+      document.getElementById("alltitle").className = "gradientstart"
+      document.getElementById("thing1").className = "gradienttext2"
+      document.getElementById("thing2").className = "gradienttext1"
+      document.getElementById("thing3").className = "gradienttext1"
+      document.getElementById("thing4").className = "gradientdiamond"
+      document.getElementById("thing5").className = "gradientdiamond"
+      document.getElementById("thing6").className = "gradienttext2"
+    }else{
+      localStorage.setItem("rainbowmode","l")
+    document.getElementById("alltitle").className = ""
+      document.getElementById("thing1").className = ""
+      document.getElementById("thing2").className = ""
+      document.getElementById("thing3").className = ""
+      document.getElementById("thing4").className = ""
+      document.getElementById("thing5").className = ""
+      document.getElementById("thing6").className = ""
+    }
+  }
+  
+  function fate(hsen){
+  let hema = Math.floor(Math.random()*hsen)
+  return hema
+  }
+  
+  function generateSeed(){
+   let seed = fate(4294967295)+1
+   return seed
+  }
+  
+  function giveSFW(){
+    let sfwish = localStorage.getItem("sfw")
+    if(sfwish !== null){
+    if(sfwish == "o"){return "NSFW (((((nudity))))) (((((nipples))))) (((((penis))))) (((((vagina))))) (((((naked)))))"}else{return ""}
+    }
+    return ""
+  }
+
+  function giveM(){
+    let sfwish = localStorage.getItem("M")
+    if(sfwish !== null){
+    if(sfwish == "o"){return " "+mannames + " " +mannames + " " +mannames + " " +mannames + " " +mannames + " " +mannames + " " +mannames + " " +mannames + " " +mannames + " "}else{return ""}
+    }
+    return ""
+  }
+
+  function giveW(){
+    let sfwish = localStorage.getItem("W")
+    if(sfwish !== null){
+    if(sfwish == "o"){return " "+womannames + " " +womannames + " " +womannames + " " +womannames + " " +womannames + " " +womannames + " " +womannames + " " +womannames + " " +womannames + " "}else{return ""}
+    }
+    return ""
+  }
+
+  function getnegativeprompt(){
+  
+     if(customnegative == ""){return giveSFW() + " " + addtonegative+" "+beautiful.negative}else{return giveSFW() + " " + addtonegative+" "+customnegative} 
+   }
+  
+  function refine(hem){
+    document.getElementById("imagesPerfectX").innerHTML = ""
+    document.getElementById("initialPromptHolder").textContent = imgprompts[hem].prompt
+    document.getElementById("initialAntiPromptHolder").textContent = imgprompts[hem].negativePrompt
+    document.getElementById("guidanceScaleXxController").value = imgprompts[hem].guidanceScale
+    document.getElementById("initialSeedController").value = imgprompts[hem].seed
+    document.getElementById("initialResolution").textContent = imgprompts[hem].resolution
+    document.getElementById("perfectdiv").resolution = imgprompts[hem].resolution
+    document.getElementById("perfectdiv").guidance = imgprompts[hem].guidanceScale
+    document.getElementById("perfectdiv").seed = imgprompts[hem].seed
+    document.getElementById("basediv").style.display = "none"
+    document.getElementById("perfectdiv").style.display = "inline"
+    document.getElementById("promptXControllerTextarea").value = imgprompts[hem].prompt
+    document.getElementById("antipromptXControllerTextarea").value = imgprompts[hem].negativePrompt
+    genimgsperfectX()
+  }
+  function unrefine(){
+    document.getElementById("basediv").style.display = "inline"
+    document.getElementById("perfectdiv").style.display = "none"
+  }
+  
+  let imgprompts = []
+ window.extrememode = "l"
+ window.doublestyleon = ""
+ function ultragena(hemdal){
+   doublestyleon = hemdal.innerHTML;if(mainprompton != ""){ultragen(mainprompton)}
+}
+window.mainprompton = ""
+  function ultragen(hemdal){
+    mainprompton = hemdal
+    let secondprompt = ""
+    let secondprompton = localStorage.getItem("doublestyle")
+    if(secondprompton == "o"){if(doublestyleon != ""){secondprompt = root[doublestyleon]}}
+              document.getElementById("promptto").innerHTML = ""
+    document.getElementById("img1").innerHTML = ""
+    let tohtml = ""
+    for(a=0;a<amountofimages;a++){
+      let scale = parseInt(beautiful.guide) + parseInt(brightup)+parseInt(brightup)+3+3
+      let seed = generateSeed()
+      let stylestring = hemdal.innerHTML
+      
+      let speciesizing = lseall("species")
+      let personizing = lseall("person")
+      let placeizing = lseall("place")
+      let pstring = ""
+      let fstring = ""
+      if(speciesizing == "o"){fstring = ""+species +" "}
+      
+      if(personizing == "o"){pstring = " "+races + " with "+haircolor +" hair "}
+      if(placeizing == "o"){pstring = pstring + " "+placeadj+" "+placeadj+" "+places +" "}
+
+      let Prompt = "aesthetic 11. "+fstring + " "+prompt.replaceAll("<b>", "").replaceAll("</b>", "").replaceAll("\n", " -- ").replaceAll(".",",").replaceAll("!",",") + root[stylestring] + " " + pstring + " " + secondprompt + " in an absolutely beautiful world-class masterpiece that is aesthetically pleasing with everything positioned perfectly, impeccable attention to detail, and an impressive, unique composition. aesthetic 11. very aesthetic 11. "
+      
+      if(extrememode == "o"){
+      Prompt = extremetize(Prompt)}
+           
+      let hhresolution = hresolution
+      if(hresolution == "???"){
+        let wr = fate(3)
+        if(wr == 0){hhresolution = "768x768"}
+        if(wr == 1){hhresolution = "768x512"}
+        if(wr == 2){hhresolution = "512x768"}
+      }
+    let promptData = {
+    prompt: Prompt,
+    negativePrompt:getnegativeprompt(),
+    resolution: hhresolution,
+    guidanceScale: scale,
+    
+    onFinish: function(result){
+    this.seed = result.iframe.textToImagePluginOutput.inputs.seed 
+      imgprompts[a] = this
+    },
+    }
+    let ia = image(promptData)
+        let iaa = ia.evaluateItem
+    imgprompts[a] = promptData
+    tohtml = tohtml + iaa + `<button style='border-radius:12px;position:relative;width:30px;height:30px;top:-10px;left:-60px;' onclick='refine("`+a+`")'>M</button>`
+    }
+    
+    document.getElementById("img1").innerHTML = tohtml
+    // Add the glow effect to the clicked button
+    addButtonGlow(hemdal);
+    }
+ 
+
+  
+  
+  //✧✨🌿Allo🌿✨✧
+  
+  function touchbutton(button){
+    let k = document.getElementById("buttons").children
+    for(u=0;u<k.length;u++){
+      k[u].style.backgroundColor = "rgba(0,0,0,0)"
+    } 
+    document.getElementById("custom1button").style.backgroundColor = "rgba(0,0,0,0)"
+   document.getElementById("custom2button").style.backgroundColor = "rgba(0,0,0,0)"
+    document.getElementById("custom3button").style.backgroundColor = "rgba(0,0,0,0)"
+        button.style.backgroundColor = "rgba(255,255,255,0.1)"
+    // Add the glow effect to the clicked button
+    addButtonGlow(button);
+    }
+  
+  
+   function touchbuttona(button){
+    let k = document.getElementById("buttonsa").children
+    for(u=0;u<k.length;u++){
+      k[u].style.backgroundColor = "rgba(0,0,0,0)"
+    } 
+     button.style.backgroundColor = "rgba(255,255,255,0.1)"
+    // Add the glow effect to the clicked button
+    addButtonGlow(button);
+    }
+  
+  
+  
+  
+       function genimgsperfectX(){
+    document.getElementById("imagesPerfectX").innerHTML = ""
+    let promptXx = document.getElementById("promptXControllerTextarea").value
+    let antipromptXx = document.getElementById("antipromptXControllerTextarea").value
+    let seedXx = document.getElementById("initialSeedController").value
+    let guidanceScaleXx = document.getElementById("guidanceScaleXxController").value
+    let resolutionXx = document.getElementById("initialResolution").textContent
+    //let amountofimagess = 6
+    let tohtml = ""
+    for(a=0;a<6;a++){
+           let scale = parseInt(beautiful.guide)
+      let seed = generateSeed()
+    let promptData = {
+    prompt: promptXx.replaceAll("<b>", "").replaceAll("</b>", "").replaceAll("\n", " -- ").replaceAll(".",",").replaceAll("!",","),
+    negativePrompt: antipromptXx.replaceAll("<b>", "").replaceAll("</b>", "").replaceAll("\n", " -- ").replaceAll(".",",").replaceAll("!",","),
+    resolution: resolutionXx,
+    guidanceScale: guidanceScaleXx,
+    seed: seedXx,
+    }
+    tohtml = tohtml + image(promptData).evaluateItem
+    
+    }
+    document.getElementById("imagesPerfectX").innerHTML = tohtml
+    document.getElementById("viewscroller").scrollIntoView()
+       }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  function genCustom(hemsen){
+    document.getElementById("promptto").innerHTML = ""
+    document.getElementById("img1").innerHTML = ""
+    let generatedText = prompt
+    //let amountofimagess = 6
+    let tohtml = ""
+    let ara = ""
+    let vnam = lseall("loveandlight"+"Custom"+hemsen+"ArtistLists")
+        
+    let vnam2 = lseall("loveandlight"+"Custom"+hemsen+"PromptWordsAlwaysIn")
+    let vnam3 = lseall("loveandlight"+"Custom"+hemsen+"PromptWords")
+   
+    let vnam4 = lseall("allovariasen"+"Custom"+hemsen+"PromptWordsAmount")
+    if(vnam4 == ""){vnam4 = ""}
+    let vnam5 = lseall("loveandlight"+"Custom"+hemsen+"AntiPrompt")
+    for(a=0;a<amountofimages;a++){
+      let Prompt = generatedText
+      let personizing = lseall("person")
+      let pstring = ""
+      if(personizing == "o"){pstring = " "+races + " with "+haircolor + " hair "}
+      
+      if(extrememode == "o"){
+      Prompt = extremetize(Prompt)}
+      Prompt = Prompt + pstring
+      if(vnam.indexOf(`
+`) != -1){
+      let artistliss = vnam.split(`
+`)
+      let af = fate(artistliss.length)
+      ara = artistliss[af]
+      }else{
+       ara = "" 
+      }
+      let astar = ""
+      if(vnam2 != ""){astar = vnam2}
+      let addprompt = astar
+           let scale = parseInt(beautiful.guide) + parseInt(brightup)
+                 if(vnam3.indexOf(`
+`) != -1){
+           let vprompti = vnam3.split(`
+`)
+           let promptsen = parseInt(vnam4)
+           
+                
+           for(uwu = 0; uwu < promptsen; uwu++){
+             let vp = fate(vprompti.length)
+           addprompt = addprompt + " " + vprompti[vp]
+           }
+                 }
+           addprompt = addprompt + " " + ara
+           
+        let hhresolution = hresolution
+      if(hresolution == "???"){
+        let wr = fate(3)
+        if(wr == 0){hhresolution = "768x768"}
+        if(wr == 1){hhresolution = "768x512"}
+        if(wr == 2){hhresolution = "512x768"}
+      }   
+      let seed = generateSeed()
+    let promptData = {
+    prompt: Prompt.replaceAll("<b>", "").replaceAll("</b>", "").replaceAll("\n", " -- ").replaceAll(".",",").replaceAll("!",",")+" " + addprompt,
+    negativePrompt: giveSFW() + " " + vnam5.replaceAll("<b>", "").replaceAll("</b>", "").replaceAll("\n", " -- ").replaceAll(".",",").replaceAll("!",","),
+    resolution: hhresolution,
+    guidanceScale: scale,
+    seed: seed,
+    }
+    imgprompts[a] = promptData
+    tohtml = tohtml + image(promptData).evaluateItem + `<button style='border-radius:12px;position:relative;width:30px;height:30px;top:-10px;left:-30px;' onclick='refine("`+a+`")'>M</button>`
+    }
+    document.getElementById("img1").innerHTML = tohtml
+    
+    // Add glow effect to the custom button
+    let customButton = document.getElementById("custom" + hemsen + "button");
+    if (customButton) {
+      addButtonGlow(customButton);
+    }
+  }
+  
+  
+  // Function to add button glow effect with harmonizing colors
+  function addButtonGlow(button) {
+    // Extract the button's colors
+    let buttonColor = button.style.color || window.getComputedStyle(button).color;
+    let borderColor = button.style.borderColor || window.getComputedStyle(button).borderColor;
+    
+    // Remove existing glow class from all buttons
+    let allButtons = document.querySelectorAll('button');
+    allButtons.forEach(btn => {
+      btn.classList.remove('button-glow');
+    });
+    
+    // Set the CSS variables for this button
+    button.style.setProperty('--glow-color', borderColor);
+    button.style.setProperty('--glow-color-secondary', buttonColor);
+    
+    // Add glow class to the clicked button
+    button.classList.add('button-glow');
+    
+    // Remove the class after animation completes
+    setTimeout(() => {
+      button.classList.remove('button-glow');
+    }, 800);
+  }
+  
+  // Add click handlers to story buttons to add glow effect
+  document.addEventListener('DOMContentLoaded', function() {
+    // Add click handlers to story buttons
+    let storyButtons = document.querySelectorAll('#storybuttons button');
+    storyButtons.forEach(btn => {
+      let originalOnClick = btn.onclick;
+      btn.onclick = function(e) {
+        if (originalOnClick) originalOnClick.call(this, e);
+        addButtonGlow(this);
+      };
+    });
+    
+    // Apply saved theme or default
+    const savedTheme = localStorage.getItem("gradientTheme") || "default";
+    applyGradientTheme(savedTheme);
+  });
+  
+
+  
+  function Custom1NameInput(){
+  localStorage.setItem("Custom1Name",document.getElementById("Custom1Name").value)
+    document.getElementById("custom1buttonp").textContent = document.getElementById("Custom1Name").value
+  }
+
+  
+function unmakeastyle1(){document.getElementById("makeastyle1").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+<div id="makeastyle1" style="display:none;background-color:rgb(0,0,0)">
+  <button style="position:fixed;top:0;right:0;padding:4px;border-radius:36px;"onclick="unmakeastyle1()">return</button>
+amount of promptwords that show up in your images [variasen("Custom1PromptWordsAmount","Amount")] <br>
+promptwords each on a different line like this:<br>
+beautiful<br>
+masterpiecerific<br>
+best quality<br>
+etc<br>
+[varia("Custom1PromptWords")]<br>
+whatever is typed in here is always in the prompt.  Can all be on the same line or not doesn't matter.[varia("Custom1PromptWordsAlwaysIn")]<br>
+these are artistlists, each on a line, and generating adds one to each pic.  Feel free to copy paste from images you like.  Looks something like:<br>
+Luis Royo and Emmanuel Shiu art style,<br>
+in art style of redjuice/necömi/rella/tiv pixiv collab,<br>
+in the style of Ruan Jia, Sam Kieth, Wadim Kashin, Alex Timmermans,<br>
+  [varia("Custom1ArtistLists")]<br>
+  antiprompt that is the negative to every image [varia("Custom1AntiPrompt")]
+Then name the button :) <br>
+  <textarea id="Custom1Name" placeholder="style name" oninput="Custom1NameInput()"></textarea><br>
+  also text color of the button: <input id="b1textcolor" value="#ffffff" type="color" oninput="document.getElementById('custom1buttonp').style.color = this.value;document.getElementById('custom1customizeli').style.color = this.value;localStorage.setItem('b1textcolor',this.value)"><br>
+  and border color of the button: <input id="b1bordercolor" value="#ffffff" type="color" oninput="document.getElementById('custom1button').style.borderColor = this.value;document.getElementById('custom1customizeli').style.borderColor = this.value;localStorage.setItem('b1bordercolor',this.value)"><br>
+  It's already on the best font so we don't need a font option :)
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    function Custom2NameInput(){
+  localStorage.setItem("Custom2Name",document.getElementById("Custom2Name").value)
+    document.getElementById("custom2buttonp").textContent = document.getElementById("Custom2Name").value
+  }
+  function unmakeastyle2(){document.getElementById("makeastyle2").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+<div id="makeastyle2" style="display:none;background-color:rgb(0,0,0)">
+  <button style="position:fixed;top:0;right:0;padding:4px;border-radius:36px;"onclick="unmakeastyle2()">return</button>
+amount of promptwords that show up in your images [variasen("Custom2PromptWordsAmount","Amount")] <br>
+promptwords each on a different line like this:<br>
+beautiful<br>
+masterpiecerific<br>
+best quality<br>
+etc<br>
+[varia("Custom2PromptWords")]<br>
+whatever is typed in here is always in the prompt.  Can all be on the same line or not doesn't matter.[varia("Custom2PromptWordsAlwaysIn")]<br>
+these are artistlists, each on a line, and generating adds one to each pic.  Feel free to copy paste from images you like.  Looks something like:<br>
+Luis Royo and Emmanuel Shiu art style,<br>
+in art style of redjuice/necömi/rella/tiv pixiv collab,<br>
+in the style of Ruan Jia, Sam Kieth, Wadim Kashin, Alex Timmermans,<br>
+  [varia("Custom2ArtistLists")]<br>
+  antiprompt that is the negative to every image [varia("Custom2AntiPrompt")]
+Then name the button :) <br>
+  <textarea id="Custom2Name" placeholder="style name" oninput="Custom2NameInput()"></textarea><br>
+  also text color of the button: <input id="b2textcolor" value="#ffffff" type="color" oninput="document.getElementById('custom2buttonp').style.color = this.value;document.getElementById('custom2customizeli').style.color = this.value;localStorage.setItem('b2textcolor',this.value)"><br>
+  and border color of the button: <input id="b2bordercolor" value="#ffffff" type="color" oninput="document.getElementById('custom2button').style.borderColor = this.value;document.getElementById('custom2customizeli').style.borderColor = this.value;localStorage.setItem('b2bordercolor',this.value)"><br>
+  It's already on the best font so we don't need a font option :)
+
+</div>
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  
+  
+  <script>
+  
+  
+  function Custom3NameInput(){
+  localStorage.setItem("Custom3Name",document.getElementById("Custom3Name").value)
+    document.getElementById("custom3buttonp").textContent = document.getElementById("Custom3Name").value
+  }
+
+  
+function unmakeastyle3(){document.getElementById("makeastyle3").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+<div id="makeastyle3" style="display:none;background-color:rgb(0,0,0)">
+  <button style="position:fixed;top:0;right:0;padding:4px;border-radius:36px;"onclick="unmakeastyle3()">return</button>
+amount of promptwords that show up in your images [variasen("Custom3PromptWordsAmount","Amount")] <br>
+promptwords each on a different line like this:<br>
+beautiful<br>
+masterpiecerific<br>
+best quality<br>
+etc<br>
+[varia("Custom3PromptWords")]<br>
+whatever is typed in here is always in the prompt.  Can all be on the same line or not doesn't matter.[varia("Custom3PromptWordsAlwaysIn")]<br>
+these are artistlists, each on a line, and generating adds one to each pic.  Feel free to copy paste from images you like.  Looks something like:<br>
+Luis Royo and Emmanuel Shiu art style,<br>
+in art style of redjuice/necömi/rella/tiv pixiv collab,<br>
+in the style of Ruan Jia, Sam Kieth, Wadim Kashin, Alex Timmermans,<br>
+  [varia("Custom3ArtistLists")]<br>
+  antiprompt that is the negative to every image and no special effect from multiple lines[varia("Custom3AntiPrompt")]
+Then name the button :) <br>
+  <textarea id="Custom3Name" placeholder="style name" oninput="Custom3NameInput()"></textarea><br>
+  also text color of the button: <input id="b3textcolor" value="#ffffff" type="color" oninput="document.getElementById('custom3buttonp').style.color = this.value;document.getElementById('custom3customizeli').style.color = this.value;localStorage.setItem('b3textcolor',this.value)"><br>
+  and border color of the button: <input id="b3bordercolor" value="#ffffff" type="color" oninput="document.getElementById('custom3button').style.borderColor = this.value;document.getElementById('custom3customizeli').style.borderColor = this.value;localStorage.setItem('b3bordercolor',this.value)"><br>
+  It's already on the best font so we don't need a font option :)
+
+</div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+  <script>
+  
+  
+  function Custom4NameInput(){
+  localStorage.setItem("Custom4Name",document.getElementById("Custom4Name").value)
+    document.getElementById("custom4buttonp").textContent = document.getElementById("Custom4Name").value
+  }
+
+  
+</script>
+
+
+<script>function unmakeastyle4(){document.getElementById("makeastyle4").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+<div id="makeastyle4" style="display:none;background-color:rgb(0,0,0)">
+  <button style="position:fixed;top:0;right:0;padding:4px;border-radius:36px;"onclick="unmakeastyle4()">return</button>
+amount of promptwords that show up in your images [variasen("Custom4PromptWordsAmount","Amount")] <br>
+promptwords each on a different line like this:<br>
+beautiful<br>
+masterpiecerific<br>
+best quality<br>
+etc<br>
+[varia("Custom4PromptWords")]<br>
+whatever is typed in here is always in the prompt.  Can all be on the same line or not doesn't matter.[varia("Custom4PromptWordsAlwaysIn")]<br>
+these are artistlists, each on a line, and generating adds one to each pic.  Feel free to copy paste from images you like.  Looks something like:<br>
+Luis Royo and Emmanuel Shiu art style,<br>
+in art style of redjuice/necömi/rella/tiv pixiv collab,<br>
+in the style of Ruan Jia, Sam Kieth, Wadim Kashin, Alex Timmermans,<br>
+  [varia("Custom4ArtistLists")]<br>
+  antiprompt that is the negative to every image and no special effect from multiple lines[varia("Custom4AntiPrompt")]
+Then name the button :) <br>
+  <textarea id="Custom4Name" placeholder="style name" oninput="Custom4NameInput()"></textarea><br>
+  also text color of the button: <input id="b4textcolor" value="#ffffff" type="color" oninput="document.getElementById('custom4buttonp').style.color = this.value;document.getElementById('custom4customizeli').style.color = this.value;localStorage.setItem('b4textcolor',this.value)"><br>
+  and border color of the button: <input id="b4bordercolor" value="#ffffff" type="color" oninput="document.getElementById('custom4button').style.borderColor = this.value;document.getElementById('custom4customizeli').style.borderColor = this.value;localStorage.setItem('b4bordercolor',this.value)"><br>
+  It's already on the best font so we don't need a font option :)
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+  
+  function Custom5NameInput(){
+  localStorage.setItem("Custom5Name",document.getElementById("Custom5Name").value)
+    document.getElementById("custom5buttonp").textContent = document.getElementById("Custom5Name").value
+  }
+
+function unmakeastyle5(){document.getElementById("makeastyle5").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+<div id="makeastyle5" style="display:none;background-color:rgb(0,0,0)">
+  <button style="position:fixed;top:0;right:0;padding:4px;border-radius:36px;"onclick="unmakeastyle5()">return</button>
+amount of promptwords that show up in your images [variasen("Custom5PromptWordsAmount","Amount")] <br>
+promptwords each on a different line like this:<br>
+beautiful<br>
+masterpiecerific<br>
+best quality<br>
+etc<br>
+[varia("Custom5PromptWords")]<br>
+whatever is typed in here is always in the prompt.  Can all be on the same line or not doesn't matter.[varia("Custom5PromptWordsAlwaysIn")]<br>
+these are artistlists, each on a line, and generating adds one to each pic.  Feel free to copy paste from images you like.  Looks something like:<br>
+Luis Royo and Emmanuel Shiu art style,<br>
+in art style of redjuice/necömi/rella/tiv pixiv collab,<br>
+in the style of Ruan Jia, Sam Kieth, Wadim Kashin, Alex Timmermans,<br>
+  [varia("Custom5ArtistLists")]<br>
+  antiprompt that is the negative to every image and no special effect from multiple lines[varia("Custom5AntiPrompt")]
+Then name the button :) <br>
+  <textarea id="Custom5Name" placeholder="style name" oninput="Custom5NameInput()"></textarea><br>
+  also text color of the button: <input id="b5textcolor" value="#ffffff" type="color" oninput="document.getElementById('custom5buttonp').style.color = this.value;document.getElementById('custom5customizeli').style.color = this.value;localStorage.setItem('b5textcolor',this.value)"><br>
+  and border color of the button: <input id="b5bordercolor" value="#ffffff" type="color" oninput="document.getElementById('custom5button').style.borderColor = this.value;document.getElementById('custom5customizeli').style.borderColor = this.value;localStorage.setItem('b5bordercolor',this.value)"><br>
+  It's already on the best font so we don't need a font option :)
+
+</div>
+
+  
+  
+
+
+
+
+
+
+
+  <script>
+  
+  
+  function Custom6NameInput(){
+  localStorage.setItem("Custom6Name",document.getElementById("Custom6Name").value)
+    document.getElementById("custom6buttonp").textContent = document.getElementById("Custom6Name").value
+  }
+
+function unmakeastyle6(){document.getElementById("makeastyle6").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+<div id="makeastyle6" style="display:none;background-color:rgb(0,0,0)">
+  <button style="position:fixed;top:0;right:0;padding:4px;border-radius:36px;"onclick="unmakeastyle6()">return</button>
+amount of promptwords that show up in your images [variasen("Custom6PromptWordsAmount","Amount")] <br>
+promptwords each on a different line like this:<br>
+beautiful<br>
+masterpiecerific<br>
+best quality<br>
+etc<br>
+[varia("Custom6PromptWords")]<br>
+whatever is typed in here is always in the prompt.  Can all be on the same line or not doesn't matter.[varia("Custom6PromptWordsAlwaysIn")]<br>
+these are artistlists, each on a line, and generating adds one to each pic.  Feel free to copy paste from images you like.  Looks something like:<br>
+Luis Royo and Emmanuel Shiu art style,<br>
+in art style of redjuice/necömi/rella/tiv pixiv collab,<br>
+in the style of Ruan Jia, Sam Kieth, Wadim Kashin, Alex Timmermans,<br>
+  [varia("Custom6ArtistLists")]<br>
+  antiprompt that is the negative to every image and no special effect from multiple lines[varia("Custom6AntiPrompt")]
+Then name the button :) <br>
+  <textarea id="Custom6Name" placeholder="style name" oninput="Custom6NameInput()"></textarea><br>
+  also text color of the button: <input id="b6textcolor" value="#ffffff" type="color" oninput="document.getElementById('custom6buttonp').style.color = this.value;document.getElementById('custom6customizeli').style.color = this.value;localStorage.setItem('b6textcolor',this.value)"><br>
+  and border color of the button: <input id="b6bordercolor" value="#ffffff" type="color" oninput="document.getElementById('custom6button').style.borderColor = this.value;document.getElementById('custom6customizeli').style.borderColor = this.value;localStorage.setItem('b6bordercolor',this.value)"><br>
+  It's already on the best font so we don't need a font option :)
+
+</div>
+
+  <script>
+  
+function Custom7NameInput(){
+  localStorage.setItem("Custom7Name",document.getElementById("Custom7Name").value)
+    document.getElementById("custom7buttonp").textContent = document.getElementById("Custom7Name").value
+  }
+
+function unmakeastyle7(){document.getElementById("makeastyle7").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+<div id="makeastyle7" style="display:none;background-color:rgb(0,0,0)">
+  <button style="position:fixed;top:0;right:0;padding:4px;border-radius:37px;"onclick="unmakeastyle7()">return</button>
+
+  amount of promptwords that show up in your images [variasen("Custom7PromptWordsAmount","Amount")] <br>
+promptwords each on a different line like this:<br>
+beautiful<br>
+masterpiecerific<br>
+best quality<br>
+etc<br>
+[varia("Custom7PromptWords")]<br>
+whatever is typed in here is always in the prompt.  Can all be on the same line or not doesn't matter.[varia("Custom7PromptWordsAlwaysIn")]<br>
+these are artistlists, each on a line, and generating adds one to each pic.  Feel free to copy paste from images you like.  Looks something like:<br>
+Luis Royo and Emmanuel Shiu art style,<br>
+in art style of redjuice/necömi/rella/tiv pixiv collab,<br>
+in the style of Ruan Jia, Sam Kieth, Wadim Kashin, Alex Timmermans,<br>
+  [varia("Custom7ArtistLists")]<br>
+  antiprompt that is the negative to every image and no special effect from multiple lines[varia("Custom7AntiPrompt")]
+Then name the button :) <br>
+  <textarea id="Custom7Name" placeholder="style name" oninput="Custom7NameInput()"></textarea><br>
+  also text color of the button: <input id="b7textcolor" value="#ffffff" type="color" oninput="document.getElementById('custom7buttonp').style.color = this.value;document.getElementById('custom7customizeli').style.color = this.value;localStorage.setItem('b7textcolor',this.value)"><br>
+  and border color of the button: <input id="b7bordercolor" value="#ffffff" type="color" oninput="document.getElementById('custom7button').style.borderColor = this.value;document.getElementById('custom7customizeli').style.borderColor = this.value;localStorage.setItem('b7bordercolor',this.value)"><br>
+  It's already on the best font so we don't need a font option :)
+
+</div>
+
+
+
+
+<script>
+
+function Custom8NameInput(){
+  localStorage.setItem("Custom8Name",document.getElementById("Custom8Name").value)
+    document.getElementById("custom8buttonp").textContent = document.getElementById("Custom8Name").value
+  }
+
+function unmakeastyle8(){document.getElementById("makeastyle8").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+<div id="makeastyle8" style="display:none;background-color:rgb(0,0,0)">
+  <button style="position:fixed;top:0;right:0;padding:4px;border-radius:37px;"onclick="unmakeastyle8()">return</button>
+
+  amount of promptwords that show up in your images [variasen("Custom8PromptWordsAmount","Amount")] <br>
+promptwords each on a different line like this:<br>
+beautiful<br>
+masterpiecerific<br>
+best quality<br>
+etc<br>
+[varia("Custom8PromptWords")]<br>
+whatever is typed in here is always in the prompt.  Can all be on the same line or not doesn't matter.[varia("Custom8PromptWordsAlwaysIn")]<br>
+these are artistlists, each on a line, and generating adds one to each pic.  Feel free to copy paste from images you like.  Looks something like:<br>
+Luis Royo and Emmanuel Shiu art style,<br>
+in art style of redjuice/necömi/rella/tiv pixiv collab,<br>
+in the style of Ruan Jia, Sam Kieth, Wadim Kashin, Alex Timmermans,<br>
+  [varia("Custom8ArtistLists")]<br>
+  antiprompt that is the negative to every image and no special effect from multiple lines[varia("Custom8AntiPrompt")]
+Then name the button :) <br>
+  <textarea id="Custom8Name" placeholder="style name" oninput="Custom8NameInput()"></textarea><br>
+  also text color of the button: <input id="b8textcolor" value="#ffffff" type="color" oninput="document.getElementById('custom8buttonp').style.color = this.value;document.getElementById('custom8customizeli').style.color = this.value;localStorage.setItem('b8textcolor',this.value)"><br>
+  and border color of the button: <input id="b8bordercolor" value="#ffffff" type="color" oninput="document.getElementById('custom8button').style.borderColor = this.value;document.getElementById('custom8customizeli').style.borderColor = this.value;localStorage.setItem('b8bordercolor',this.value)"><br>
+  It's already on the best font so we don't need a font option :)
+
+</div>
+
+
+
+
+<script>
+
+function Custom9NameInput(){
+  localStorage.setItem("Custom9Name",document.getElementById("Custom9Name").value)
+    document.getElementById("custom9buttonp").textContent = document.getElementById("Custom9Name").value
+  }
+
+function unmakeastyle9(){document.getElementById("makeastyle9").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+<div id="makeastyle9" style="display:none;background-color:rgb(0,0,0)">
+  <button style="position:fixed;top:0;right:0;padding:4px;border-radius:37px;"onclick="unmakeastyle9()">return</button>
+
+  amount of promptwords that show up in your images [variasen("Custom9PromptWordsAmount","Amount")] <br>
+promptwords each on a different line like this:<br>
+beautiful<br>
+masterpiecerific<br>
+best quality<br>
+etc<br>
+[varia("Custom9PromptWords")]<br>
+whatever is typed in here is always in the prompt.  Can all be on the same line or not doesn't matter.[varia("Custom9PromptWordsAlwaysIn")]<br>
+these are artistlists, each on a line, and generating adds one to each pic.  Feel free to copy paste from images you like.  Looks something like:<br>
+Luis Royo and Emmanuel Shiu art style,<br>
+in art style of redjuice/necömi/rella/tiv pixiv collab,<br>
+in the style of Ruan Jia, Sam Kieth, Wadim Kashin, Alex Timmermans,<br>
+  [varia("Custom9ArtistLists")]<br>
+  antiprompt that is the negative to every image and no special effect from multiple lines[varia("Custom9AntiPrompt")]
+Then name the button :) <br>
+  <textarea id="Custom9Name" placeholder="style name" oninput="Custom9NameInput()"></textarea><br>
+  also text color of the button: <input id="b9textcolor" value="#ffffff" type="color" oninput="document.getElementById('custom9buttonp').style.color = this.value;document.getElementById('custom9customizeli').style.color = this.value;localStorage.setItem('b9textcolor',this.value)"><br>
+  and border color of the button: <input id="b9bordercolor" value="#ffffff" type="color" oninput="document.getElementById('custom9button').style.borderColor = this.value;document.getElementById('custom9customizeli').style.borderColor = this.value;localStorage.setItem('b9bordercolor',this.value)"><br>
+  It's already on the best font so we don't need a font option :)
+
+</div>
+
+
+
+
+
+
+<script>
+  
+  
+  
+  function unhelp(){document.getElementById("help").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+<div id="help" style="display:none;background-color:rgb(0,0,0);">
+<div class="settings-section">
+  <h2 class="gradientstart">How to Use This Generator</h2>
+  
+  <h3>Basic Controls</h3>
+  <p>
+    • <strong>Library Buttons:</strong> At the top, toggle to save/load your favorite prompts<br>
+    • <strong>Prompt Area:</strong> Type your image description here<br>
+    • <strong>Style Buttons:</strong> Click any style button to generate images<br>
+    • <strong>Dimension Options:</strong> Square (768×768), Portrait (512×768), Landscape (768×512)<br>
+    • <strong>Amount Setting:</strong> Control how many images are generated at once<br>
+    • <strong>SFW Button:</strong> Activates filters to reduce (but not eliminate) adult content<br>
+    • <strong>Refine Images:</strong> Click the "M" button on any generated image to fine-tune it<br>
+  </p>
+
+  <h3>Advanced Features</h3>
+  <p>
+    • <strong>Customize Styles:</strong> Create your own style buttons with custom colors and prompts<br>
+    • <strong>Rainbow Toggle:</strong> Click any rainbow text to switch between rainbow and white text<br>
+    • <strong>Mobile Friendly:</strong> Swipe left/right to see more style buttons on phone<br>
+    • <strong>Extremetize:</strong> Super-focuses one word in your prompt for stronger emphasis<br>
+    • <strong>Personize:</strong> Adds race, hair color, and eye color details to your prompt<br>
+    • <strong>Placeize:</strong> Enhances setting details in your generated images<br>
+  </p>
+
+  <h3>Community</h3>
+  <p>Join our monthly image contest! Look for the link in the bottom menu.</p>
+  
+  <h3>Note</h3>
+  <p>Even with SFW mode activated, some prompts may still result in adult content.</p>
+</div>
+  
+  <div style="inline-flex">
+
+  <!-- Add gradient theme selector -->
+  <div id="gradientThemeSelector">
+    <h3 class="gradientstart">Choose a Gradient Theme</h3>
+    <div style="display:flex; flex-wrap:wrap; justify-content:center;">
+      <button class="theme-button" data-theme="default" onclick="applyGradientTheme('default'); addButtonGlow(this);" style="margin:5px; border-radius:12px; padding:10px; background-color:rgba(0,0,0,0)">
+        <span class="theme-preview" style="background: linear-gradient(to right, white, teal, violet, green, blue, red, blue);"></span>Default
+      </button>
+      <button class="theme-button" data-theme="Magic" onclick="applyGradientTheme('Magic'); addButtonGlow(this);" style="margin:5px; border-radius:12px; padding:10px; background-color:rgba(0,0,0,0)">
+        <span class="theme-preview" style="background: linear-gradient(to right, #d29dff, #7700ff, #cc00ff, #9900ff, #ff00cc);"></span>Magic
+      </button>
+      <button class="theme-button" data-theme="Technical" onclick="applyGradientTheme('Technical'); addButtonGlow(this);" style="margin:5px; border-radius:12px; padding:10px; background-color:rgba(0,0,0,0)">
+        <span class="theme-preview" style="background: linear-gradient(to right, #80d4ff, #0088ff, #00aaff, #0066ff, #00ccff);"></span>Technical
+      </button>
+      <button class="theme-button" data-theme="Undersea" onclick="applyGradientTheme('Undersea'); addButtonGlow(this);" style="margin:5px; border-radius:12px; padding:10px; background-color:rgba(0,0,0,0)">
+        <span class="theme-preview" style="background: linear-gradient(to right, #80d4d4, #008888, #00aaaa, #006666, #00cccc);"></span>Undersea
+      </button>
+      <button class="theme-button" data-theme="DeepForest" onclick="applyGradientTheme('DeepForest'); addButtonGlow(this);" style="margin:5px; border-radius:12px; padding:10px; background-color:rgba(0,0,0,0)">
+        <span class="theme-preview" style="background: linear-gradient(to right, #80d480, #008800, #00aa00, #006600, #00cc00);"></span>DeepForest
+      </button>
+      <button class="theme-button" data-theme="Urban" onclick="applyGradientTheme('Urban'); addButtonGlow(this);" style="margin:5px; border-radius:12px; padding:10px; background-color:rgba(0,0,0,0)">
+        <span class="theme-preview" style="background: linear-gradient(to right, #d4d4d4, #888888, #aaaaaa, #666666, #cccccc);"></span>Urban
+      </button>
+      <button class="theme-button" data-theme="Desert" onclick="applyGradientTheme('Desert'); addButtonGlow(this);" style="margin:5px; border-radius:12px; padding:10px; background-color:rgba(0,0,0,0)">
+        <span class="theme-preview" style="background: linear-gradient(to right, #ffe0b3, #bb8844, #ddaa66, #996633, #ffcc99);"></span>Desert
+      </button>
+      <button class="theme-button" data-theme="Space" onclick="applyGradientTheme('Space'); addButtonGlow(this);" style="margin:5px; border-radius:12px; padding:10px; background-color:rgba(0,0,0,0)">
+        <span class="theme-preview" style="background: linear-gradient(to right, #6666ff, #000066, #0000aa, #000033, #3333cc);"></span>Space
+      </button>
+      <button class="theme-button" data-theme="Dreamy" onclick="applyGradientTheme('Dreamy'); addButtonGlow(this);" style="margin:5px; border-radius:12px; padding:10px; background-color:rgba(0,0,0,0)">
+        <span class="theme-preview" style="background: linear-gradient(to right, #ffcce6, #ff99cc, #ffb3d9, #cc99ff, #e6ccff);"></span>Dreamy
+      </button>
+    </div>
+  </div>
+
+  </div>
+  <br>
+    <div style="inline-flex">
+    <div>Title</div>
+      <textarea id="hemsuntani" oninput="kohemsuntani()">🌿 ✨ Beautiful People ✨ 🌿</textarea>
+  </div>
+  <br>
+  <div style="inline-flex">
+    <div>Prompt Entry Size</div>
+    <select id="hemaeraeren" oninput="kohemaeraeren()" style="background-color:rgb(0,0,0)">
+      <option>Normal</option>
+      <option>Large</option>
+      <option>Larger</option>
+      <option>GINORMOUS</option>
+      <option>EVEN GINORMOUSER</option>
+      <option>Smol</option>
+    </select>
+  </div>
+  <br>
+  <button id="hieu" onclick="hieu()">Hide unnecessary text</button>
+<button onclick="allo.refreshstars()">clear stars</button>
+<button onclick="clearInterval(allo.starinterval)">stop stars</button>
+
+  <button style="padding:40px;border-radius:36px;"onclick="unhelp()">return</button>
+
+</div>
+
+
+
+
+<div id="perfectdiv" style="display:none">
+  <div style="display:none">Initial Prompt: <div id="initialPromptHolder"></div><br>
+    Initial AntiPrompt: <div id="initialAntiPromptHolder"></div><br>
+        Resolution: <div id="initialResolution"></div><br></div>
+  <h1 id="thing5" onclick="togglerainbow()" class="gradientdiamond" style="user-select:none;white-space:nowrap">✧✨🌿💎🌿✨✧</h1>
+    [variasen("initialSeed","Seed",1,4294967295)]<br>
+    GuidanceScale: [variasen("guidanceScaleXx","guidanceScale",1,30)]<br>
+  <p id="thing4" onclick="togglerainbow()" class="gradientdiamond" style="user-select:none;">adding a word nearer the start usually is more powerful.  Try adding one word to the prompt and then generating and seeing how it changes the image.</p>
+    Prompt: [varia("promptX")]<br>
+    antiprompt: [varia("antipromptX")]<br>
+  <button onclick="genimgsperfectX()" style="padding:12px;border-radius:12px;background-color:rgba(0,0,0,0);">generate</button>
+  <p> <span style="color:rgb(242, 255, 0)">✨ </span><span class="gradienttext1" style="user-select:none;" id="thing3" onclick="togglerainbow()">each seed has a variation of a few images</span><span style="color:rgb(242, 255, 0)"> ✨</span></p>
+  <div id="imagesPerfectX"></div>
+  <p id="viewscroller" style="color:rgb(242, 255, 0)">✨</p>
+  <button style="position:fixed;top:0;right:0;padding:12px;border-radius:36px;background-color:rgba(0,0,0,0.7);"onclick="unrefine()">return</button>
+</div>
+
+
+<div id="basediv">
+<h1 id="alltitle" class="gradientstart" onclick="togglerainbow()" style="user-select:none;white-space:nowrap">🌿 ✨ Beautiful People ✨ 🌿</h1>
+<div id="p">[varia("prompt")]</div>
+  
+  <button class="rainbowstarX" style="border-color:rgb(217, 255, 25);padding:12px;background-color:rgba(0,0,0,0);color:rgb(146, 252, 207);border-radius:30px;" onclick="if(document.getElementById('mewkittyxtreme2').style.display == 'none'){this.style.borderColor = 'rgb(150,164,255)'; document.getElementById('mewkittyxtreme2').style.display = 'block'}else{this.style.borderColor = 'rgb(108, 79, 255)';document.getElementById('mewkittyxtreme2').style.display = 'none'}">🌙</button>
+<div style="display:none"id="mewkittyxtreme2">
+  
+  <div><div id="antipromptselect"></div>[variakk("hresolution",["768x768","512x768","768x512","???"])]</div>
+  
+  
+  
+  <div>[variasen("amountofimages","Amount",1,16)]</div>
+
+<button onclick="if(document.getElementById('customnegative').style.display == 'none'){this.style.color = 'rgb(0,255,0)';document.getElementById('customnegative').style.display = 'block'}else{this.style.color = 'rgb(255,255,255)';document.getElementById('customnegative').style.display = 'none'}">CustomNegative</button>
+  <div style="display:none" id="customnegative">
+    <p>this one replaces the starter negative prompt (blank returns to normal)</p>
+[varia("customnegative")]
+       <p>this one adds to the negative prompt</p>
+[varia("addtonegative")]
+    </div>
+  
+
+   <br>
+  <button id="mewkittybutton" onclick="toggleextremetize()">Extremetize</button>
+  <button id="sfw" onclick="togglesfw()">SFW</button>
+ <button id="personize" onclick="togglepersonize()">Personize</button>
+  <button id="doublestyleli" onclick="toggledoublestyle()">DoubleStyle</button>
+<button id="placeize" onclick="toggleplaceize()">Placeize</button>
+ <button id="speciesize" onclick="togglespeciesize()">Speciesize</button>
+ <button style="color:rgb(43, 255, 135);padding:12px;background-color:rgba(0,0,0,0);border-radius:30px;" onclick="document.getElementById('story').style.display = 'inline';document.getElementById('basediv').style.display = 'none'">aiStory</button>
+
+  </div>
+    <script>
+      
+      function toggleextremetize(){ 
+        if(extrememode == "l"){
+        extrememode = "o"
+          seall("o","extrememode")
+        document.getElementById("mewkittybutton").style.color = "rgba(0,255,0,1)"
+        }else{
+        extrememode = "l"
+          seall("l","extrememode")
+        document.getElementById("mewkittybutton").style.color = "rgba(255,255,255,1)"
+        }
+      
+      }
+      let sfw = localStorage.getItem("sfw")
+  if(sfw !== null){if(sfw == "o"){document.getElementById("sfw").style.borderColor = "rgb(0,255,0)"}}
+    function togglesfw(){
+      let sffw = localStorage.getItem("sfw")
+      if(sffw !== null){if(sffw == "o"){localStorage.setItem("sfw","l");document.getElementById("sfw").style.borderColor = "rgb(255,255,255)"}else{
+      localStorage.setItem("sfw","o");document.getElementById("sfw").style.borderColor = "rgb(0,255,0)"
+      }}else{localStorage.setItem("sfw","o");document.getElementById("sfw").style.borderColor = "rgb(0,255,0)"}
+    }
+
+
+
+function togglemanize(){
+      let sffw = localStorage.getItem("man")
+      if(sffw !== null){if(sffw == "o"){localStorage.setItem("man","l");document.getElementById("man").style.borderColor = "rgb(255,255,255)"}else{
+      localStorage.setItem("man","o");document.getElementById("man").style.borderColor = "rgb(0,255,0)"
+      }}else{localStorage.setItem("man","o");document.getElementById("man").style.borderColor = "rgb(0,255,0)"}
+    }
+      
+      let peman = localStorage.getItem("man")
+  if(peman !== null){if(peman == "o"){document.getElementById("man").style.borderColor = "rgb(0,255,0)"}}
+
+function togglewomanize(){
+      let sffw = localStorage.getItem("woman")
+      if(sffw !== null){if(sffw == "o"){localStorage.setItem("woman","l");document.getElementById("woman").style.borderColor = "rgb(255,255,255)"}else{
+      localStorage.setItem("woman","o");document.getElementById("woman").style.borderColor = "rgb(0,255,0)"
+      }}else{localStorage.setItem("woman","o");document.getElementById("woman").style.borderColor = "rgb(0,255,0)"}
+    }
+      
+      let pewoman = localStorage.getItem("woman")
+  if(pewoman !== null){if(pewoman == "o"){document.getElementById("woman").style.borderColor = "rgb(0,255,0)"}}
+
+
+
+
+function togglespeciesize(){
+      let sffw = localStorage.getItem("species")
+      if(sffw !== null){if(sffw == "o"){localStorage.setItem("species","l");document.getElementById("speciesize").style.borderColor = "rgb(255,255,255)"}else{
+      localStorage.setItem("species","o");document.getElementById("speciesize").style.borderColor = "rgb(0,255,0)"
+      }}else{localStorage.setItem("species","o");document.getElementById("speciesize").style.borderColor = "rgb(0,255,0)"}
+    }
+      
+      let pse = localStorage.getItem("species")
+  if(pse !== null){if(pse == "o"){document.getElementById("speciesize").style.borderColor = "rgb(0,255,0)"}}
+
+
+
+      
+      function togglepersonize(){
+      let sffw = localStorage.getItem("person")
+      if(sffw !== null){if(sffw == "o"){localStorage.setItem("person","l");document.getElementById("personize").style.borderColor = "rgb(255,255,255)"}else{
+      localStorage.setItem("person","o");document.getElementById("personize").style.borderColor = "rgb(0,255,0)"
+      }}else{localStorage.setItem("person","o");document.getElementById("personize").style.borderColor = "rgb(0,255,0)"}
+    }
+      
+      let pe = localStorage.getItem("person")
+  if(pe !== null){if(pe == "o"){document.getElementById("personize").style.borderColor = "rgb(0,255,0)"}}
+
+
+function toggleplaceize(){
+      let sffw = localStorage.getItem("place")
+      if(sffw !== null){if(sffw == "o"){localStorage.setItem("place","l");document.getElementById("placeize").style.borderColor = "rgb(255,255,255)"}else{
+      localStorage.setItem("place","o");document.getElementById("placeize").style.borderColor = "rgb(0,255,0)"
+      }}else{localStorage.setItem("place","o");document.getElementById("placeize").style.borderColor = "rgb(0,255,0)"}
+    }
+      
+      let ppe = localStorage.getItem("place")
+  if(ppe !== null){if(ppe == "o"){document.getElementById("placeize").style.borderColor = "rgb(0,255,0)"}}
+
+      
+      
+      ao = lseall("extrememode")
+      if(ao == "o"){toggleextremetize()}
+      
+  </script>
+    
+
+ <p> <span id="thingstar" style="color:rgb(242, 255, 0)">🌠 </span><span id="thing2" onclick="togglerainbow()" class="gradienttext1" style="user-select:none;">touch one of these to generate images</span><span id="thingstar2" style="color:rgb(242, 255, 0)"> 🌠</span></p>
+<div style="overflow:auto">
+<div id="buttons" style="display:inline-flex">
+  <button style="color:rgb(247, 247, 25);border-color:rgb(250, 250, 127);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Bright</button>
+<button style="color:rgb(145, 7, 224);border-color:rgb(197, 97, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Pony</button>
+<button style="color:rgb(19, 215, 237);border-color:rgb(130, 242, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Anime</button>
+<button style="color:rgb(212, 17, 17);border-color:rgb(242, 99, 99);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Swag</button>
+  <button style="color:rgb(255, 255, 122);border-color:rgb(235, 146, 52);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">PostApoc</button>
+
+<button style="color:rgb(111, 0, 255);border-color:rgb(179, 120, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Magic</button>
+<button style="color:rgb(255, 85, 0);border-color:rgb(255, 150, 97);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Action</button>
+<button style="color:rgb(0, 16, 237);border-color:rgb(107, 117, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">HD</button>
+<button style="color:rgb(255, 234, 0);border-color:rgb(255, 240, 71);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Steam</button>
+<button style="color:rgb(99, 188, 255);border-color:rgb(71, 176, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Place</button>
+<button style="color:rgb(102, 255, 191);border-color:rgb(120, 255, 142);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Fey</button>
+  <button style="color:rgb(129, 252, 76);border-color:rgb(52, 235, 76);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">NSFW</button>
+  <button style="color:rgb(129, 252, 76);border-color:rgb(52, 235, 76);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">NSFWAnime</button>
+  <button style="color:rgb(129, 252, 76);border-color:rgb(52, 235, 76);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">NSFWAnthro</button>
+<button style="color:rgb(250, 255, 207);border-color:rgb(250, 255, 207);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Novel</button>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div><button style="background-color:rgba(0,0,0,0)"  id="custom1customizeli" onclick="document.getElementById('makeastyle1').style.display = 'inline';document.getElementById('basediv').style.display = 'none'">Customize</button><br><button id="custom1button" style="border-radius: 12px; padding: 18px; background-color:rgba(0,0,0,0)" onclick="genCustom(1);document.getElementById('p').scrollIntoView();touchbutton(this);"><span id="custom1buttonp">Custom Button</span></button></div>
+     <script>let c1n = localStorage.getItem("Custom1Name")
+      if(c1n !== null){
+      document.getElementById("Custom1Name").value = c1n
+        document.getElementById("custom1buttonp").textContent = c1n
+      }
+
+let b1textcolor = localStorage.getItem("b1textcolor")
+if(b1textcolor !== null){document.getElementById("b1textcolor").value = b1textcolor
+                        document.getElementById("custom1buttonp").style.color = b1textcolor
+                         document.getElementById("custom1customizeli").style.color = b1textcolor
+                        }
+let b1bordercolor = localStorage.getItem("b1bordercolor")
+if(b1bordercolor !== null){document.getElementById("custom1button").style.borderColor = b1bordercolor
+                           document.getElementById("custom1customizeli").style.borderColor = b1bordercolor
+                          
+                          }
+
+
+  </script>
+  
+  
+  
+  
+  
+  
+  
+    <div><button style="background-color:rgba(0,0,0,0)"  id="custom2customizeli" onclick="document.getElementById('makeastyle2').style.display = 'inline';document.getElementById('basediv').style.display = 'none'">Customize</button><br><button id="custom2button" style="border-radius: 12px; padding: 18px; background-color:rgba(0,0,0,0)" onclick="genCustom(2);document.getElementById('p').scrollIntoView();touchbutton(this);"><span id="custom2buttonp">Custom Button</span></button></div>
+     <script>let c2n = localStorage.getItem("Custom2Name")
+      if(c2n !== null){
+      document.getElementById("Custom2Name").value = c2n
+        document.getElementById("custom2buttonp").textContent = c2n
+      }
+
+let b2textcolor = localStorage.getItem("b2textcolor")
+if(b2textcolor !== null){document.getElementById("b2textcolor").value = b2textcolor
+                        document.getElementById("custom2buttonp").style.color = b2textcolor
+                         document.getElementById("custom2customizeli").style.color = b2textcolor
+                        }
+let b2bordercolor = localStorage.getItem("b2bordercolor")
+if(b2bordercolor !== null){document.getElementById("custom2button").style.borderColor = b2bordercolor
+                           document.getElementById("custom2customizeli").style.borderColor = b2bordercolor
+                          
+                          }
+
+
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div><button  style="background-color:rgba(0,0,0,0)" id="custom3customizeli" onclick="document.getElementById('makeastyle3').style.display = 'inline';document.getElementById('basediv').style.display = 'none'">Customize</button><br><button id="custom3button" style="border-radius: 12px; padding: 18px; background-color:rgba(0,0,0,0)" onclick="genCustom(3);document.getElementById('p').scrollIntoView();touchbutton(this);"><span id="custom3buttonp">Custom Button</span></button></div>
+     <script>let c3n = localStorage.getItem("Custom3Name")
+      if(c3n !== null){
+      document.getElementById("Custom3Name").value = c3n
+        document.getElementById("custom3buttonp").textContent = c3n
+      }
+
+let b3textcolor = localStorage.getItem("b3textcolor")
+if(b3textcolor !== null){document.getElementById("b3textcolor").value = b3textcolor
+                        document.getElementById("custom3buttonp").style.color = b3textcolor
+                         document.getElementById("custom3customizeli").style.color = b3textcolor
+                        }
+let b3bordercolor = localStorage.getItem("b3bordercolor")
+if(b3bordercolor !== null){document.getElementById("custom3button").style.borderColor = b3bordercolor
+                           document.getElementById("custom3customizeli").style.borderColor = b3bordercolor
+                          
+                          }
+
+
+  </script>
+  
+  
+  
+  
+  
+  
+  
+<button style="color:rgb(74, 255, 104);border-color:rgb(94, 9, 179);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Pokemon</button>
+  <button style="color:rgb(165, 38, 255);border-color:rgb(251, 255, 15);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Tech</button>
+  <button style="color:rgb(255, 20, 20);border-color:rgb(101, 17, 150);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Warrior</button>
+  <button style="color:rgb(127, 15, 255);border-color:rgb(25, 255, 171);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Psych</button>
+  <button style="color:rgb(3, 252, 123);border-color:rgb(0, 47, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Item</button>
+
+  
+  
+  
+  
+   
+  <div><button  style="background-color:rgba(0,0,0,0)" id="custom4customizeli" onclick="document.getElementById('makeastyle4').style.display = 'inline';document.getElementById('basediv').style.display = 'none'">Customize</button><br><button id="custom4button" style="border-radius: 12px; padding: 18px; background-color:rgba(0,0,0,0)" onclick="genCustom(4);document.getElementById('p').scrollIntoView();touchbutton(this);"><span id="custom4buttonp">Custom Button</span></button></div>
+     <script>let c4n = localStorage.getItem("Custom4Name")
+      if(c4n !== null){
+      document.getElementById("Custom4Name").value = c4n
+        document.getElementById("custom4buttonp").textContent = c4n
+      }
+
+let b4textcolor = localStorage.getItem("b4textcolor")
+if(b4textcolor !== null){document.getElementById("b4textcolor").value = b4textcolor
+                        document.getElementById("custom4buttonp").style.color = b4textcolor
+                         document.getElementById("custom4customizeli").style.color = b4textcolor
+                        }
+let b4bordercolor = localStorage.getItem("b4bordercolor")
+if(b4bordercolor !== null){document.getElementById("custom4button").style.borderColor = b4bordercolor
+                           document.getElementById("custom4customizeli").style.borderColor = b4bordercolor
+                          
+                          }
+
+
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  <div><button style="background-color:rgba(0,0,0,0)" id="custom5customizeli" onclick="document.getElementById('makeastyle5').style.display = 'inline';document.getElementById('basediv').style.display = 'none'">Customize</button><br><button id="custom5button" style="border-radius: 12px; padding: 18px; background-color:rgba(0,0,0,0)" onclick="genCustom(5);document.getElementById('p').scrollIntoView();touchbutton(this);"><span id="custom5buttonp">Custom Button</span></button></div>
+     <script>let c5n = localStorage.getItem("Custom5Name")
+      if(c5n !== null){
+      document.getElementById("Custom5Name").value = c5n
+        document.getElementById("custom5buttonp").textContent = c5n
+      }
+
+let b5textcolor = localStorage.getItem("b5textcolor")
+if(b5textcolor !== null){document.getElementById("b5textcolor").value = b5textcolor
+                        document.getElementById("custom5buttonp").style.color = b5textcolor
+                         document.getElementById("custom5customizeli").style.color = b5textcolor
+                        }
+let b5bordercolor = localStorage.getItem("b5bordercolor")
+if(b5bordercolor !== null){document.getElementById("custom5button").style.borderColor = b5bordercolor
+                           document.getElementById("custom5customizeli").style.borderColor = b5bordercolor
+                          
+                          }
+
+
+  </script>
+  
+  
+  
+  
+   
+  <div><button  style="background-color:rgba(0,0,0,0)" id="custom6customizeli" onclick="document.getElementById('makeastyle6').style.display = 'inline';document.getElementById('basediv').style.display = 'none'">Customize</button><br><button id="custom6button" style="border-radius: 12px; padding: 18px; background-color:rgba(0,0,0,0)" onclick="genCustom(6);document.getElementById('p').scrollIntoView();touchbutton(this);"><span id="custom6buttonp">Custom Button</span></button></div>
+     <script>let c6n = localStorage.getItem("Custom6Name")
+      if(c6n !== null){
+      document.getElementById("Custom6Name").value = c6n
+        document.getElementById("custom6buttonp").textContent = c6n
+      }
+
+let b6textcolor = localStorage.getItem("b6textcolor")
+if(b6textcolor !== null){document.getElementById("b6textcolor").value = b6textcolor
+                        document.getElementById("custom6buttonp").style.color = b6textcolor
+                         document.getElementById("custom6customizeli").style.color = b6textcolor
+                        }
+let b6bordercolor = localStorage.getItem("b6bordercolor")
+if(b6bordercolor !== null){document.getElementById("custom6button").style.borderColor = b6bordercolor
+                           document.getElementById("custom6customizeli").style.borderColor = b6bordercolor
+                          
+                          }
+
+
+  </script>
+  
+  
+  
+    <button style="color:rgb(255, 209, 186);border-color:rgb(255, 170, 23);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Cafe</button>
+   <button style="color:rgb(3, 252, 123);border-color:rgb(230, 186, 110);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Anthro</button>
+<button style="color:rgb(194, 255, 210);border-color:rgb(252, 255, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Dreamlike</button>
+<button style="color:rgb(165, 143, 255);border-color:rgb(226, 209, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Haunted</button>
+<button style="color:rgb(245, 181, 255);border-color:rgb(209, 255, 181);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Kawaii</button>
+   
+  
+  
+  <div><button  style="background-color:rgba(0,0,0,0)" id="custom7customizeli" onclick="document.getElementById('makeastyle7').style.display = 'inline';document.getElementById('basediv').style.display = 'none'">Customize</button><br><button id="custom7button" style="border-radius: 12px; padding: 18px; background-color:rgba(0,0,0,0)" onclick="genCustom(7);document.getElementById('p').scrollIntoView();touchbutton(this);"><span id="custom7buttonp">Custom Button</span></button></div>
+     <script>let c7n = localStorage.getItem("Custom7Name")
+      if(c7n !== null){
+      document.getElementById("Custom7Name").value = c7n
+        document.getElementById("custom7buttonp").textContent = c7n
+      }
+
+let b7textcolor = localStorage.getItem("b7textcolor")
+if(b7textcolor !== null){document.getElementById("b7textcolor").value = b7textcolor
+                        document.getElementById("custom7buttonp").style.color = b7textcolor
+                         document.getElementById("custom7customizeli").style.color = b7textcolor
+                        }
+let b7bordercolor = localStorage.getItem("b7bordercolor")
+if(b7bordercolor !== null){document.getElementById("custom7button").style.borderColor = b7bordercolor
+                           document.getElementById("custom7customizeli").style.borderColor = b7bordercolor
+                          
+                          }
+
+
+  </script>
+  
+  <div><button  style="background-color:rgba(0,0,0,0)" id="custom8customizeli" onclick="document.getElementById('makeastyle8').style.display = 'inline';document.getElementById('basediv').style.display = 'none'">Customize</button><br><button id="custom8button" style="border-radius: 12px; padding: 18px; background-color:rgba(0,0,0,0)" onclick="genCustom(8);document.getElementById('p').scrollIntoView();touchbutton(this);"><span id="custom8buttonp">Custom Button</span></button></div>
+     <script>let c8n = localStorage.getItem("Custom8Name")
+      if(c8n !== null){
+      document.getElementById("Custom8Name").value = c8n
+        document.getElementById("custom8buttonp").textContent = c8n
+      }
+
+let b8textcolor = localStorage.getItem("b8textcolor")
+if(b8textcolor !== null){document.getElementById("b8textcolor").value = b8textcolor
+                        document.getElementById("custom8buttonp").style.color = b8textcolor
+                         document.getElementById("custom8customizeli").style.color = b8textcolor
+                        }
+let b8bordercolor = localStorage.getItem("b8bordercolor")
+if(b8bordercolor !== null){document.getElementById("custom8button").style.borderColor = b8bordercolor
+                           document.getElementById("custom8customizeli").style.borderColor = b8bordercolor
+                          
+                          }
+
+
+  </script>
+  
+  <div><button  style="background-color:rgba(0,0,0,0)" id="custom9customizeli" onclick="document.getElementById('makeastyle9').style.display = 'inline';document.getElementById('basediv').style.display = 'none'">Customize</button><br><button id="custom9button" style="border-radius: 12px; padding: 18px; background-color:rgba(0,0,0,0)" onclick="genCustom(9);document.getElementById('p').scrollIntoView();touchbutton(this);"><span id="custom9buttonp">Custom Button</span></button></div>
+     <script>let c9n = localStorage.getItem("Custom9Name")
+      if(c9n !== null){
+      document.getElementById("Custom9Name").value = c9n
+        document.getElementById("custom9buttonp").textContent = c9n
+      }
+
+let b9textcolor = localStorage.getItem("b9textcolor")
+if(b9textcolor !== null){document.getElementById("b9textcolor").value = b9textcolor
+                        document.getElementById("custom9buttonp").style.color = b9textcolor
+                         document.getElementById("custom9customizeli").style.color = b9textcolor
+                        }
+let b9bordercolor = localStorage.getItem("b9bordercolor")
+if(b9bordercolor !== null){document.getElementById("custom9button").style.borderColor = b9bordercolor
+                           document.getElementById("custom9customizeli").style.borderColor = b9bordercolor
+                          
+                          }
+
+
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  <button style="color:rgb(250, 255, 207);border-color:rgb(250, 255, 207);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">History</button>
+  <button style="color:rgb(46, 255, 248);border-color:rgb(74, 43, 166);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Best</button>
+
+
+    <button style="color:rgb(250, 255, 207);border-color:rgb(250, 255, 207);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Schematic</button>
+  <button style="color:rgb(46, 255, 248);border-color:rgb(74, 43, 166);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Music</button>
+<button style="color:rgb(59, 255, 199);border-color:rgb(42, 125, 102);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragen(this);document.getElementById('p').scrollIntoView();touchbutton(this)">Shemira</button>
+
+  
+  
+  </div>
+  
+  
+  
+  
+  
+</div>
+
+
+
+<div id="secondstylebuttons" style="overflow:auto;display:none; max-width:100%">
+<div id="buttonsa" style="display:inline-flex">
+  <button style="color:rgb(247, 247, 25);border-color:rgb(250, 250, 127);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Bright</button>
+<button style="color:rgb(145, 7, 224);border-color:rgb(197, 97, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Pony</button>
+<button style="color:rgb(19, 215, 237);border-color:rgb(130, 242, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Anime</button>
+<button style="color:rgb(212, 17, 17);border-color:rgb(242, 99, 99);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Swag</button>
+  <button style="color:rgb(255, 255, 122);border-color:rgb(235, 146, 52);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">PostApoc</button>
+<button style="color:rgb(111, 0, 255);border-color:rgb(179, 120, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Magic</button>
+<button style="color:rgb(255, 85, 0);border-color:rgb(255, 150, 97);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Action</button>
+<button style="color:rgb(0, 16, 237);border-color:rgb(107, 117, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">HD</button>
+<button style="color:rgb(255, 234, 0);border-color:rgb(255, 240, 71);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Steam</button>
+<button style="color:rgb(99, 188, 255);border-color:rgb(71, 176, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Place</button>
+<button style="color:rgb(102, 255, 191);border-color:rgb(120, 255, 142);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Fey</button>
+  <button style="color:rgb(129, 252, 76);border-color:rgb(52, 235, 76);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">NSFW</button>
+  <button style="color:rgb(129, 252, 76);border-color:rgb(52, 235, 76);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">NSFWAnime</button>
+  <button style="color:rgb(129, 252, 76);border-color:rgb(52, 235, 76);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">NSFWAnthro</button>
+<button style="color:rgb(250, 255, 207);border-color:rgb(250, 255, 207);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Novel</button>
+<button style="color:rgb(74, 255, 104);border-color:rgb(94, 9, 179);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Pokemon</button>
+  <button style="color:rgb(165, 38, 255);border-color:rgb(251, 255, 15);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Tech</button>
+  <button style="color:rgb(255, 20, 20);border-color:rgb(101, 17, 150);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Warrior</button>
+  <button style="color:rgb(127, 15, 255);border-color:rgb(25, 255, 171);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Psych</button>
+  <button style="color:rgb(3, 252, 123);border-color:rgb(0, 47, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Item</button>
+    <button style="color:rgb(255, 209, 186);border-color:rgb(255, 170, 23);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Cafe</button>
+   <button style="color:rgb(3, 252, 123);border-color:rgb(230, 186, 110);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Anthro</button>
+<button style="color:rgb(194, 255, 210);border-color:rgb(252, 255, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Dreamlike</button>
+<button style="color:rgb(165, 143, 255);border-color:rgb(226, 209, 255);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Haunted</button>
+<button style="color:rgb(245, 181, 255);border-color:rgb(209, 255, 181);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Kawaii</button>
+     <button style="color:rgb(250, 255, 207);border-color:rgb(250, 255, 207);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">History</button>
+  <button style="color:rgb(46, 255, 248);border-color:rgb(74, 43, 166);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Best</button>
+
+     <button style="color:rgb(250, 255, 207);border-color:rgb(250, 255, 207);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Schematic</button>
+  <button style="color:rgb(46, 255, 248);border-color:rgb(74, 43, 166);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Music</button>
+  <button style="color:rgb(59, 255, 199);border-color:rgb(42, 125, 102);border-radius:12px; padding:18px; background-color:rgba(0,0,0,0)" onclick="ultragena(this);touchbuttona(this)">Shemira</button>
+
+
+
+
+</div>
+</div>
+
+
+
+  
+<div id="promptto"></div>
+ <p> <span class="gradienttext2" id="thing1" onclick="togglerainbow()" style="user-select:none;">Generate an image you like?</span></p> <p><span class="gradienttext2" id="thing6" onclick="togglerainbow()" style="user-select:none;">touch the M button to tune it to perfection</span></p>
+<div id="img1"></div>
+  <br>
+  <button class="rainbowstar" style="border-color:rgb(72, 4, 181);padding:12px;background-color:rgba(0,0,0,0);color:rgb(146, 252, 207);border-radius:30px;" onclick="if(document.getElementById('mewkittyxtreme').style.display == 'none'){this.style.borderColor = 'rgb(150,164,255)'; document.getElementById('mewkittyxtreme').style.display = 'block'}else{this.style.borderColor = 'rgb(108, 79, 255)';document.getElementById('mewkittyxtreme').style.display = 'none'}">☀️</button>
+
+  <div style="display:none;" id="mewkittyxtreme">
+      
+    <button style="border-color:rgb(255, 241, 184);padding:12px;color:rgb(163, 255, 185);border-color:rgb(226, 255, 212);background-color:rgba(0,0,0,0);border-radius:30px" onclick="window.open('https://lemmy.world/c/perchance@lemmy.world', '_blank').focus()">🔗Main Forum📜</button>
+    <button style="border-color:rgb(255, 241, 184);padding:12px;color:rgb(186, 186, 255);background-color:rgba(0,0,0,0);border-radius:30px" onclick="window.open('https://lemmy.world/c/casual_perchance', '_blank').focus()">🔗Casual forum📜</button>
+    <button style="border-color:rgb(255, 241, 184);padding:12px;color:rgb(241, 255, 173);background-color:rgba(0,0,0,0);border-radius:30px" onclick="window.open(challenge,'_blank').focus()">🔗Monthly Image Challenge🎨</button>
+    <button class="gradienttextG" style="border-color:rgb(251, 255, 8);padding:12px;background-color:rgba(0,0,0,0);border-radius:30px" onclick="window.open('https://perchance.org/ai-text-to-image-generators', '_blank').focus()">🐈Glass's AI Art Gen🐈</button>
+    <button class="gradienttextE" style="border-color:rgb(251, 255, 8);padding:12px;background-color:rgba(0,0,0,0);border-radius:30px" onclick="window.open('https://perchance.org/texturepacker', '_blank').focus()">🖌️Texture packer :)🖌️</button>
+
+    
+    
+    
+  <button id="commentsli" style="border-color:rgb(108, 79, 255);padding:12px;background-color:rgba(0,0,0,0);color:rgb(146, 252, 207);border-radius:30px;" onclick="if(document.getElementById('commentsmohka').style.display == 'none'){this.style.borderColor = 'rgb(226, 255, 64)';document.getElementById('commentsnsfwli').style.borderColor = 'rgb(108, 79, 255)';document.getElementById('commentsliupdates').style.borderColor = 'rgb(108, 79, 255)';document.getElementById('commentsmohka').style.display = 'block'; document.getElementById('commentsmohkansfw').style.display = 'none';document.getElementById('commentsmohkaupdates').style.display = 'none'}else{this.style.borderColor = 'rgb(108, 79, 255)';document.getElementById('commentsmohka').style.display = 'none';document.getElementById('commentsmohkansfw').style.display = 'none';document.getElementById('commentsmohkaupdates').style.display = 'none'}">🗨️Chat✉️</button>
+  <button id="commentsnsfwli" style="border-color:rgb(108, 79, 255);padding:12px;background-color:rgba(0,0,0,0);color:rgb(239, 255, 173);border-radius:30px;" onclick="if(document.getElementById('commentsmohkansfw').style.display == 'none'){this.style.borderColor = 'rgb(226, 255, 64)';document.getElementById('commentsli').style.borderColor = 'rgb(108, 79, 255)';document.getElementById('commentsliupdates').style.borderColor = 'rgb(108, 79, 255)';document.getElementById('commentsmohkansfw').style.display = 'block';document.getElementById('commentsmohka').style.display = 'none';document.getElementById('commentsmohkaupdates').style.display = 'none'}else{this.style.borderColor = 'rgb(108, 79, 255)';document.getElementById('commentsmohkansfw').style.display = 'none';document.getElementById('commentsmohka').style.display = 'none';document.getElementById('commentsmohkaupdates').style.display = 'none'}">🗨️ChatNSFW💌</button>
+   <button id="commentsliupdates" style="border-color:rgb(108, 79, 255);padding:12px;background-color:rgba(0,0,0,0);color:rgb(146, 252, 207);border-radius:30px;" onclick="if(document.getElementById('commentsmohkaupdates').style.display == 'none'){this.style.borderColor = 'rgb(226, 255, 64)';document.getElementById('commentsnsfwli').style.borderColor = 'rgb(108, 79, 255)';document.getElementById('commentsli').style.borderColor = 'rgb(108, 79, 255)';document.getElementById('commentsmohkaupdates').style.display = 'block'; document.getElementById('commentsmohkansfw').style.display = 'none';document.getElementById('commentsmohka').style.display = 'none'}else{this.style.borderColor = 'rgb(108, 79, 255)';document.getElementById('commentsmohkaupdates').style.display = 'none';document.getElementById('commentsmohkansfw').style.display = 'none'};document.getElementById('commentsmohka').style.display = 'none'">updates</button>
+
+   <button style="border-color:rgb(123, 232, 152);padding:12px;background-color:rgba(0,0,0,0);color:rgb(51, 255, 180);border-radius:30px;" onclick="if(document.getElementById('commentsmohkagallery').style.display == 'none'){document.getElementById('commentsmohkagallery').style.display = 'block'}else{this.style.borderColor = 'rgb(123, 232, 152)';document.getElementById('commentsmohkagallery').style.display = 'none'}">🦕🔮Gallery📜🦕</button>
+   
+    
+    
+
+    <button style="color:rgb(164, 222, 211);border-color:rgb(82, 47, 8);padding:12px;background-color:rgba(0,0,0,0);border-radius:30px;" onclick="if(document.getElementById('help').style.display == 'none'){document.getElementById('help').style.display = 'inline';document.getElementById('basediv').style.display = 'none'}">settings</button> 
+  </div>
+    <script>function unstory(){document.getElementById("story").style.display = "none"
+                         document.getElementById("basediv").style.display = "inline"
+                         }</script>
+   <div style="display: flex;justify-content: center;align-items: center;"><div style="display:none;max-width:100%;width:768px" id="commentsmohkaupdates">[comments(commentOptionsUpdates)]</div></div>
+
+    <div style="display: flex;justify-content: center;align-items: center;"><div style="display:none;max-width:100%;width:768px" id="commentsmohka">[comments(commentOptions)]</div></div>
+  <div style="display: flex;justify-content: center;align-items: center;"><div style="display:none;max-width:100%;width:768px" id="commentsmohkansfw">[comments(commentOptionsnsfw)]</div></div>
+
+  <br>
+<br>
+ 
+<br>
+    <div style="display: flex;justify-content: center;align-items: center;"><div style="display:none;max-width:100%;width:768px" id="commentsmohkagallery"><div id="gallerya"></div></div></div>
+
+</div>
+
+<script>
+
+  
+  let galleria = {}
+  galleria.gallery = true
+  galleria.sort = "recent"
+  galleria.adaptiveHeight = true
+  galleria.style = "background-color:rgba(0,0,0,0)"
+  galleria.forceColorScheme = "dark"
+  galleria.bannedUsers = bannedUsers
+  document.getElementById("gallerya").innerHTML = image(galleria).evaluateItem
+ let rm = localStorage.getItem("rainbowmode")
+  if(rm == "l"){togglerainbow()}
+  setTimeout(function(){
+    let rmm = localStorage.getItem("msg3")
+  if(rmm === null){alert("SFW prompts often result in nudity anyway.  if you don't want nudity in your pics, tap the SFW button and it will TRY to be SFW.")
+            localStorage.setItem("msg3","o")      }
+  },2000)
+
+  
+    document.documentElement.style.colorScheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  let hemsuntani = lseall("alltitle")
+if(hemsuntani != ""){
+document.getElementById("hemsuntani").value = hemsuntani
+document.getElementById("alltitle").textContent = hemsuntani
+}
+
+function kohemsuntani(){
+let hsuntani = document.getElementById("hemsuntani").value
+seall(hsuntani,"alltitle")
+document.getElementById("alltitle").textContent = hsuntani
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+function kohemaeraeren(){
+let hmaeraeren = document.getElementById("hemaeraeren").value
+seall(hmaeraeren,"sunhemaeraeren")
+if(hmaeraeren == "Normal"){
+document.getElementById("promptControllerTextarea").style.height = "100px"}
+if(hmaeraeren == "Large"){
+document.getElementById("promptControllerTextarea").style.height = "200px"}
+if(hmaeraeren == "Larger"){
+document.getElementById("promptControllerTextarea").style.height = "300px"}
+if(hmaeraeren == "GINORMOUS"){
+document.getElementById("promptControllerTextarea").style.height = "400px"}
+if(hmaeraeren == "EVEN GINORMOUSER"){
+document.getElementById("promptControllerTextarea").style.height = "500px"}
+if(hmaeraeren == "Smol"){
+document.getElementById("promptControllerTextarea").style.height = "50px"}
+}
+  
+  
+  
+  
+  
+  setTimeout(function(){
+  let hemaeraeren = lseall("sunhemaeraeren")
+if(hemaeraeren != ""){
+if(hemaeraeren == "Normal"){document.getElementById("hemaeraeren").value = "Normal"
+document.getElementById("promptControllerTextarea").style.height = "100px"}
+if(hemaeraeren == "Large"){document.getElementById("hemaeraeren").value = "Large"
+document.getElementById("promptControllerTextarea").style.height = "200px"}
+if(hemaeraeren == "Larger"){document.getElementById("hemaeraeren").value = "Larger"
+document.getElementById("promptControllerTextarea").style.height = "300px"}
+if(hemaeraeren == "GINORMOUS"){document.getElementById("hemaeraeren").value = "GINORMOUS"
+document.getElementById("promptControllerTextarea").style.height = "400px"}
+if(hemaeraeren == "EVEN GINORMOUSER"){document.getElementById("hemaeraeren").value = "EVEN GINORMOUSER"
+document.getElementById("promptControllerTextarea").style.height = "500px"}
+if(hemaeraeren == "Small"){document.getElementById("hemaeraeren").value = "Small"
+document.getElementById("promptControllerTextarea").style.height = "50px"}
+}
+    
+    let hi = lseall("hieu")
+    if(hi == "o"){
+      document.getElementById("hieu").style.borderColor = "rgb(255,255,255)"
+document.getElementById("alltitle").style.display = "block"
+    }
+  },1000)
+  
+  
+  
+  
+  
+  
+  
+  function hieu(){
+let hi = lseall("hieu")
+if(hi == "" || hi == "l"){
+seall("o","hieu")
+document.getElementById("hieu").style.borderColor = "rgb(0,255,0)"
+document.getElementById("alltitle").style.display = "none"
+  document.getElementById("thing2").style.display = "none"
+  document.getElementById("thing1").style.display = "none"
+  document.getElementById("thing6").style.display = "none"
+    document.getElementById("thingstar").style.display = "none"
+  document.getElementById("thingstar2").style.display = "none"
+}else{
+seall("l","hieu")
+document.getElementById("hieu").style.borderColor = "rgb(255,255,255)"
+document.getElementById("alltitle").style.display = "block"
+  document.getElementById("thing2").style.display = "inline"
+  document.getElementById("thing1").style.display = "inline"
+  document.getElementById("thing6").style.display = "inline"
+  document.getElementById("thingstar").style.display = "inline"
+  document.getElementById("thingstar2").style.display = "inline"
+}
+}
+  
+
+
+  
+
+  
+
+
+
+
+  function hieu2(){
+let hi = lseall("hieu")
+if(hi == "o" || hi == "O"){
+document.getElementById("hieu").style.borderColor = "rgb(0,255,0)"
+document.getElementById("alltitle").style.display = "none"
+  document.getElementById("thing2").style.display = "none"
+  document.getElementById("thing1").style.display = "none"
+  document.getElementById("thing6").style.display = "none"
+  document.getElementById("thingstar").style.display = "none"
+  document.getElementById("thingstar2").style.display = "none"
+}else{
+document.getElementById("hieu").style.borderColor = "rgb(255,255,255)"
+document.getElementById("alltitle").style.display = "block"
+  document.getElementById("thing2").style.display = "inline"
+  document.getElementById("thing1").style.display = "inline"
+  document.getElementById("thing6").style.display = "inline"
+  document.getElementById("thingstar").style.display = "inline"
+  document.getElementById("thingstar2").style.display = "inline"
+}
+}
+  hieu2()
+ 
+  
+</script>
+  
+  
+  
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//✧✨🌿Allo🌿✨✧
+</script>
+
+
+
+
+
+
